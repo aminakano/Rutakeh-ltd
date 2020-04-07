@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p|Noto+Sans:400,700&display=swap);
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #fff; }
+  header h2 {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    header h2 span:last-child {
+      font-size: 0.95rem; }
+  header ul {
+    display: flex;
+    margin-right: 3rem;
+    align-items: center; }
+    header ul li {
+      padding: 0 2rem; }
+
+.top-copy {
+  background-image: url("/bg.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  justify-content: center; }
+  .top-copy h1 {
+    font-size: 5rem; }
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #17a2b8;
+  padding: 5%; }
+  .services h3 {
+    color: #fff; }
+  .services .services-list {
+    padding: 5% 0;
+    margin: 0 10% 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; }
+    .services .services-list li {
+      display: flex;
+      align-items: center;
+      width: 35%;
+      justify-content: space-between; }
+      .services .services-list li:first-child, .services .services-list li:nth-child(2) {
+        margin-bottom: 3rem; }
+      .services .services-list li .icon {
+        color: #17a2b8;
+        font-size: 3rem; }
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  color: #3e4348; }
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

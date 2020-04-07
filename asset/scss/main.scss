@@ -1,0 +1,16 @@
+@import "config";
+@import "typography";
+@import "header";
+@import "homepage";
+
+body {
+  margin: 0;
+  font-family: $font-en;
+  color: $grey;
+}
+
+h3 {
+  text-align: center;
+  font-size: $h3;
+  text-transform: uppercase;
+}

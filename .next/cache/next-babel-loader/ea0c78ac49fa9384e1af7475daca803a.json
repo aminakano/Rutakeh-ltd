@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport \"../asset/scss/main.scss\";\nimport withLayout from \"../components/MyLayout\";\nimport TopCopy from \"../components/TopCopy\";\n\nvar Page = function Page() {\n  return __jsx(TopCopy, null);\n};\n\nexport default withLayout(Page);","map":null,"metadata":{},"sourceType":"module"}

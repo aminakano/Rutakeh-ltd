@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: $white;
+
+
+  h2 {
+    font-size: $h2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    span:last-child {
+      font-size: 0.95rem;
+    }
+  }
+
+  ul {
+    display: flex;
+    margin-right: 3rem;
+    align-items: center;
+
+    li {
+      padding: 0 2rem;
+    }
+  }
+
+}
