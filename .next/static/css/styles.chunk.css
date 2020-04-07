@@ -71,15 +71,44 @@ header {
         color: #17a2b8;
         font-size: 3rem; }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .about h4 {
+    text-align: center; }
+  .about ul {
+    min-width: 500px; }
+    .about ul li {
+      display: flex;
+      align-items: center;
+      margin: 1rem; }
+      .about ul li h5 {
+        color: #17a2b8;
+        font-size: 1rem;
+        text-align: right;
+        width: 4rem; }
+      .about ul li p {
+        padding-left: 1rem;
+        margin-left: 1rem;
+        border-left: 1px solid #17a2b8; }
+
 body {
   margin: 0;
   font-family: "Noto Sans", sans-serif;
   color: #3e4348; }
 
+a {
+  color: #b82d17; }
+  a:hover {
+    text-decoration: underline; }
+
 h3 {
   text-align: center;
   font-size: 2.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

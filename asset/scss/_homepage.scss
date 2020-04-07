@@ -53,3 +53,33 @@
     }
   }
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    text-align: center;
+  }
+  ul {
+    min-width: 500px;
+    li {
+      display: flex;
+      align-items: center;
+      margin: 1rem;
+      h5 {
+        color: $primary-color;
+        font-size: $h5;
+        text-align: right;
+        width: 4rem;
+      }
+      p {
+        padding-left: 1rem;
+        margin-left: 1rem;
+        border-left: 1px solid $primary-color;
+      }
+    }
+  }
+}

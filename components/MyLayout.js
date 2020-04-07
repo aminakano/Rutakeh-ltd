@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Footer from "./Footer";
 
 const layoutStyle = {
   // margin: 20,
@@ -12,6 +13,7 @@ const withLayout = Page => {
     <div style={layoutStyle}>
       <Header />
       <Page />
+      <Footer />
     </div>
   );
 }

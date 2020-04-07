@@ -1,6 +1,3 @@
-// const headerStyle = {
-//   display: "flex",
-// }
 const Header = () => (
   <header>
     <h2>
