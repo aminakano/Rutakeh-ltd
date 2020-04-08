@@ -10,3 +10,14 @@ li {
 a {
   text-decoration: none;
 }
+
+@mixin font-family($font, $weight){
+  font-family: $font;
+  font-weight: $weight;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

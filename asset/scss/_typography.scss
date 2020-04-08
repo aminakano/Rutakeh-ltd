@@ -1,8 +1,8 @@
 //fonts
-@import url("https://fonts.googleapis.com/css?family=M+PLUS+1p|Noto+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,500|Noto+Sans:400,700&display=swap");
 
 $font-en: 'Noto Sans', sans-serif;
-$font-jp: 'M PLUS 1p', sans-serif;
+$font-jp: 'M PLUS Rounded 1c', sans-serif;
 
 //colours
 $primary-color: #17a2b8;
@@ -12,11 +12,13 @@ $grey: #3e4348;
 $grey10: rgba(62, 67, 72, 0.1);
 $white: #fff;
 $white50: rgba(255,255,255,0.5);
+$black10: rgba(0,0,0,0.1);
 
 //font sizes
 $h1: 5rem;
 $h2: 2rem;
 $h3: 2.5rem;
+$h4: 1.25rem;
 $h5: 1rem;
 $button: 1.25rem;
 
