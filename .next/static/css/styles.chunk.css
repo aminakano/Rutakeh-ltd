@@ -89,6 +89,7 @@ header {
         margin-bottom: 3rem; }
       .services .services-list li .icon {
         color: #17a2b8;
+        opacity: 0.8;
         font-size: 3rem; }
       .services .services-list li p {
         font-size: 0.9rem;
@@ -116,11 +117,15 @@ header {
           color: #17a2b8;
           font-size: 1rem;
           text-align: right;
-          width: 4rem; }
+          width: 4rem;
+          font-family: "M PLUS Rounded 1c", sans-serif;
+          font-weight: 500; }
         .about div ul li p {
           padding-left: 1rem;
           margin-left: 1rem;
-          border-left: 1px solid #17a2b8; }
+          border-left: 1px solid #17a2b8;
+          font-family: "M PLUS Rounded 1c", sans-serif;
+          font-weight: 300; }
 
 .contact {
   display: flex;
@@ -128,12 +133,12 @@ header {
   align-items: center;
   justify-content: center;
   padding: 5%;
-  background-color: #17a2b8; }
-  .contact h3 {
-    color: #fff; }
+  background-color: #17a2b8;
+  color: #fff; }
   .contact p {
-    color: #fff;
-    text-align: center; }
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400; }
   .contact #typeform {
     width: 50%;
     height: 350px;

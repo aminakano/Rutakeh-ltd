@@ -58,6 +58,7 @@
 
       .icon {
         color: $primary-color;
+        opacity: 0.8;
         font-size: 3rem;
       }
 
@@ -90,11 +91,13 @@
           font-size: $h5;
           text-align: right;
           width: 4rem;
+          @include font-family($font-jp, 500)
         }
         p {
           padding-left: 1rem;
           margin-left: 1rem;
           border-left: 1px solid $primary-color;
+          @include font-family($font-jp, 300)
         }
       }
     }  
@@ -106,13 +109,11 @@
   justify-content: center;
   padding: 5%;
   background-color: $primary-color;
+  color: $white;
 
-  h3 {
-    color: $white;
-  }
   p {
-    color: $white;
     text-align: center;
+    @include font-family($font-jp, 400);
   }
   #typeform {
     width: 50%; 
