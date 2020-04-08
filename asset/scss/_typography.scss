@@ -7,11 +7,18 @@ $font-jp: 'M PLUS 1p', sans-serif;
 //colours
 $primary-color: #17a2b8;
 $secondary-color: #b82d17;
+$secondary80: rgba(184, 45, 23, 0.8);
 $grey: #3e4348;
+$grey10: rgba(62, 67, 72, 0.1);
 $white: #fff;
+$white50: rgba(255,255,255,0.5);
 
 //font sizes
 $h1: 5rem;
 $h2: 2rem;
 $h3: 2.5rem;
 $h5: 1rem;
+$button: 1.25rem;
+
+//border radius
+$border10: 10px;

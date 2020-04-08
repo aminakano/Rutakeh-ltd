@@ -27,7 +27,7 @@
 
   .services-list {
     padding: 5% 0;
-    margin: 0 10% 5% 10%;
+    margin: 3% 10% 5% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -59,27 +59,52 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5%;
+  div {
+    padding: 2rem 0;
+    h4 {
+      text-align: center;
+    }
+    ul {
+      min-width: 500px;
+      li {
+        display: flex;
+        align-items: center;
+        margin: 1rem;
+        h5 {
+          color: $primary-color;
+          font-size: $h5;
+          text-align: right;
+          width: 4rem;
+        }
+        p {
+          padding-left: 1rem;
+          margin-left: 1rem;
+          border-left: 1px solid $primary-color;
+        }
+      }
+    }  
+  }
+}
 
-  h4 {
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: $primary-color;
+
+  h3 {
+    color: $white;
+  }
+  p {
+    color: $white;
     text-align: center;
   }
-  ul {
-    min-width: 500px;
-    li {
-      display: flex;
-      align-items: center;
-      margin: 1rem;
-      h5 {
-        color: $primary-color;
-        font-size: $h5;
-        text-align: right;
-        width: 4rem;
-      }
-      p {
-        padding-left: 1rem;
-        margin-left: 1rem;
-        border-left: 1px solid $primary-color;
-      }
-    }
+  #typeform {
+    width: 50%; 
+    height: 350px;
+    padding: 2rem;
   }
 }

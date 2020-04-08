@@ -15,12 +15,19 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  color: #fff; }
+  color: #fff;
+  background-color: transparent; }
+  header.header-bg {
+    color: #3e4348;
+    background-color: rgba(255, 255, 255, 0.5); }
+    header.header-bg a {
+      color: #3e4348; }
   header h2 {
     font-size: 2rem;
     display: flex;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    padding: 0 3rem; }
     header h2 span:last-child {
       font-size: 0.95rem; }
   header ul {
@@ -29,6 +36,8 @@ header {
     align-items: center; }
     header ul li {
       padding: 0 2rem; }
+      header ul li a {
+        color: #fff; }
 
 .top-copy {
   background-image: url("/bg.jpg");
@@ -53,7 +62,7 @@ header {
     color: #fff; }
   .services .services-list {
     padding: 5% 0;
-    margin: 0 10% 5% 10%;
+    margin: 3% 10% 5% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -75,24 +84,44 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
-  .about h4 {
+  align-items: center;
+  padding: 5%; }
+  .about div {
+    padding: 2rem 0; }
+    .about div h4 {
+      text-align: center; }
+    .about div ul {
+      min-width: 500px; }
+      .about div ul li {
+        display: flex;
+        align-items: center;
+        margin: 1rem; }
+        .about div ul li h5 {
+          color: #17a2b8;
+          font-size: 1rem;
+          text-align: right;
+          width: 4rem; }
+        .about div ul li p {
+          padding-left: 1rem;
+          margin-left: 1rem;
+          border-left: 1px solid #17a2b8; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: #17a2b8; }
+  .contact h3 {
+    color: #fff; }
+  .contact p {
+    color: #fff;
     text-align: center; }
-  .about ul {
-    min-width: 500px; }
-    .about ul li {
-      display: flex;
-      align-items: center;
-      margin: 1rem; }
-      .about ul li h5 {
-        color: #17a2b8;
-        font-size: 1rem;
-        text-align: right;
-        width: 4rem; }
-      .about ul li p {
-        padding-left: 1rem;
-        margin-left: 1rem;
-        border-left: 1px solid #17a2b8; }
+  .contact #typeform {
+    width: 50%;
+    height: 350px;
+    padding: 2rem; }
 
 body {
   margin: 0;
@@ -109,6 +138,22 @@ h3 {
   font-size: 2.5rem;
   text-transform: uppercase;
   margin-bottom: 1rem; }
+
+button {
+  min-width: 150px;
+  background-color: rgba(184, 45, 23, 0.8);
+  font-size: 1.25rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif; }
+  button a {
+    color: #fff; }
+    button a:hover {
+      text-decoration: none; }
+  button:hover {
+    cursor: pointer;
+    background-color: #b82d17; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

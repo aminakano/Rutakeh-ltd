@@ -1,6 +1,8 @@
+import Form from "./Form";
+
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h3>Get in touch!</h3>
       <p>
         法人、個人の方問わず、お気軽にお問合せください。
@@ -9,13 +11,8 @@ const Contact = () => {
         <a href="mailto: contact@rutakeh.com">contact@rutakeh.com</a>
         またはお電話にてご連絡をお願いいたします。
       </p>
-      <div
-        className="typeform-widget"
-        data-url="https://aminakano.typeform.com/to/CzDNIR"
-        
-      ></div>
+      <Form />
     </div>
   );
 };
-
 export default Contact;

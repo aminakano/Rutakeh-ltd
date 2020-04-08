@@ -5,6 +5,16 @@ header {
   top: 0;
   width: 100%;
   color: $white;
+  background-color: transparent;
+
+  &.header-bg {
+    color: $grey;
+    background-color: $white50;
+
+    a {
+      color: $grey;
+    }
+  }
 
 
   h2 {
@@ -12,6 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0 3rem;
     span:last-child {
       font-size: 0.95rem;
     }
@@ -24,6 +35,10 @@ header {
 
     li {
       padding: 0 2rem;
+
+      a {
+        color: $white;
+      }
     }
   }
 

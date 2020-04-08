@@ -4,5 +4,5 @@ export default Footer;
 
 const styles = {
   textAlign: "center",
-  paddingTop: "1rem"
+  padding: "0.5rem 0"
 }
