@@ -1,4 +1,7 @@
 import Form from "./Form";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Contact = () => {
   return (
@@ -12,6 +15,11 @@ const Contact = () => {
         またはお電話にてご連絡をお願いいたします。
       </p>
       <Form />
+      <div className="to-top">
+        <AnchorLink href="#home">
+          <FontAwesomeIcon icon={faArrowUp} />
+        </AnchorLink>
+      </div>
     </div>
   );
 };

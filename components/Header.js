@@ -1,5 +1,5 @@
 import { Component } from "react";
-import window from "global";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Header extends Component {
   componentDidMount() {
@@ -24,30 +24,34 @@ class Header extends Component {
     hamburger.addEventListener("click", (e) => {
       header.classList.toggle("active");
     });
+
+    
   }
   render () {
     return (
       <header id="header">
-        <h2>
-          <span>Rutakeh</span>
-          <span>龍武株式会社</span>
-        </h2>
+        <AnchorLink href="#home">
+          <h2>
+            <span>Rutakeh</span>
+            <span>龍武株式会社</span>
+          </h2>
+        </AnchorLink>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <AnchorLink href="#home">Home</AnchorLink>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <AnchorLink href="#services">Services</AnchorLink>
           </li>
           <li>
-            <a href="#about">About</a>
+            <AnchorLink href="#about">About</AnchorLink>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <AnchorLink href="#contact">Contact</AnchorLink>
           </li>
         </ul>
         <div className="hamburger" id="hamburger">
-          <input type="checkbox"/>
+          <input type="checkbox" />
           <span></span>
           <span></span>
           <span></span>

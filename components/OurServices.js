@@ -23,7 +23,7 @@ const Services = () => {
             </li>
           ))}
         </ul>
-        <Button name={name} />
+        <Button name={name} url={"#about"} />
       </Fade>
     </div>
   );

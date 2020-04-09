@@ -1,7 +1,8 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const Button = (props) => {
   return (
     <button>
-      <a href={props.url}>{props.name}</a>
+      <AnchorLink href={props.url}>{props.name}</AnchorLink>
     </button>
   );
 };
