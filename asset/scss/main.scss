@@ -22,6 +22,10 @@ h3 {
   font-size: $h3;
   text-transform: uppercase;
   margin-bottom: 1rem;
+  
+  @include breakpoint(xxs) {
+  font-size: 1.5rem;
+  }
 }
 
 h4 {

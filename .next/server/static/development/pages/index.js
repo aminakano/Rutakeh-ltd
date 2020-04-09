@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -449,17 +449,21 @@ class Form extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! global */ "global");
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   componentDidMount() {
     const header = document.getElementById("header");
     let scrollPos = 0;
+    const hamburger = document.getElementById("hamburger");
 
-    const blueHeader = position => {
+    const headerEffect = position => {
       if (position > 32) {
         header.classList.add("header-bg");
       } else {
@@ -467,9 +471,12 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     };
 
-    window.addEventListener("scroll", e => {
-      scrollPos = window.scrollY;
-      blueHeader(scrollPos);
+    global__WEBPACK_IMPORTED_MODULE_1___default.a.addEventListener("scroll", e => {
+      scrollPos = global__WEBPACK_IMPORTED_MODULE_1___default.a.scrollY;
+      headerEffect(scrollPos);
+    });
+    hamburger.addEventListener("click", e => {
+      header.classList.toggle("active");
     });
   }
 
@@ -479,42 +486,42 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 30,
         columnNumber: 7
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 31,
         columnNumber: 9
       }
     }, __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 32,
         columnNumber: 11
       }
     }, "Rutakeh"), __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 33,
         columnNumber: 11
       }
     }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E")), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 35,
         columnNumber: 9
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 36,
         columnNumber: 11
       }
     }, __jsx("a", {
@@ -522,14 +529,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 37,
         columnNumber: 13
       }
     }, "Home")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 39,
         columnNumber: 11
       }
     }, __jsx("a", {
@@ -537,14 +544,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 40,
         columnNumber: 13
       }
     }, "Services")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 42,
         columnNumber: 11
       }
     }, __jsx("a", {
@@ -552,14 +559,14 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 43,
         columnNumber: 13
       }
     }, "About")), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 45,
         columnNumber: 11
       }
     }, __jsx("a", {
@@ -567,10 +574,48 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 46,
         columnNumber: 13
       }
-    }, "Contact"))));
+    }, "Contact"))), __jsx("div", {
+      className: "hamburger",
+      id: "hamburger",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 9
+      }
+    }, __jsx("input", {
+      type: "checkbox",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 11
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 11
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 11
+      }
+    }), __jsx("span", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53,
+        columnNumber: 11
+      }
+    })));
   }
 
 }
@@ -909,7 +954,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -951,6 +996,17 @@ module.exports = require("@fortawesome/react-fontawesome");
 /***/ (function(module, exports) {
 
 module.exports = require("@typeform/embed");
+
+/***/ }),
+
+/***/ "global":
+/*!*************************!*\
+  !*** external "global" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("global");
 
 /***/ }),
 

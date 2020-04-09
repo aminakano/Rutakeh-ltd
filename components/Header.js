@@ -1,11 +1,13 @@
 import { Component } from "react";
+import window from "global";
 
 class Header extends Component {
   componentDidMount() {
     const header = document.getElementById("header");
     let scrollPos = 0;
+    const hamburger = document.getElementById("hamburger");
 
-    const blueHeader = (position) => {
+    const headerEffect = (position) => {
       if (position > 32) {
         header.classList.add("header-bg");
       } else {
@@ -15,7 +17,12 @@ class Header extends Component {
 
     window.addEventListener("scroll", (e) => {
       scrollPos = window.scrollY;
-      blueHeader(scrollPos);
+      headerEffect(scrollPos);
+    });
+
+
+    hamburger.addEventListener("click", (e) => {
+      header.classList.toggle("active");
     });
   }
   render () {
@@ -39,8 +46,14 @@ class Header extends Component {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+        <div className="hamburger" id="hamburger">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </header>
-    )
+    );
   }
 }
 
