@@ -128,111 +128,126 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../asset/json/data.json */ "./asset/json/data.json");
 var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../asset/json/data.json */ "./asset/json/data.json", 1);
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/About.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const About = props => {
-  const infos = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__.info.company;
-  const histories = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__.info.history;
-  return __jsx("div", {
-    className: "about",
-    id: "about",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 5
-    }
-  }, __jsx("h3", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 7
-    }
-  }, "About us"), __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 7
-    }
-  }, __jsx("h4", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 9
-    }
-  }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }, infos.map((info, i) => __jsx("li", {
-    key: i,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 15
-    }
-  }, info.title), __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 15
-    }
-  }, info.item)))), __jsx("h4", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 9
-    }
-  }, "\u6CBF\u9769"), __jsx("ul", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, histories.map((history, i) => __jsx("li", {
-    key: i,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 13
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 15
-    }
-  }, history.title), __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 15
-    }
-  }, history.item))))));
-};
+
+
+class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    const infos = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__.info.company;
+    const histories = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__.info.history;
+    return __jsx("div", {
+      className: "about",
+      id: "about",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 7
+      }
+    }, __jsx("h3", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 9
+      }
+    }, "About us"), __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 9
+      }
+    }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      bottom: true,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 11
+      }
+    }, __jsx("h4", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 13
+      }
+    }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 13
+      }
+    }, infos.map((info, i) => __jsx("li", {
+      key: i,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 17
+      }
+    }, __jsx("h5", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 19
+      }
+    }, info.title), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 19
+      }
+    }, info.item)))), __jsx("h4", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 13
+      }
+    }, "\u6CBF\u9769"), __jsx("ul", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 13
+      }
+    }, histories.map((history, i) => __jsx("li", {
+      key: i,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 17
+      }
+    }, __jsx("h5", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 19
+      }
+    }, history.title), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 19
+      }
+    }, history.item)))))));
+  }
+
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
 
@@ -643,9 +658,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../asset/json/data.json */ "./asset/json/data.json");
 var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../asset/json/data.json */ "./asset/json/data.json", 1);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/OurServices.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -661,31 +679,39 @@ const Services = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 5
     }
-  }, __jsx("h3", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 7
-    }
-  }, "Our services"), __jsx("ul", {
-    className: "services-list",
+  }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    bottom: true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13,
       columnNumber: 7
     }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, "Our services"), __jsx("ul", {
+    className: "services-list",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 9
+    }
   }, services.map((service, i) => __jsx("li", {
     key: i,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 11
+      lineNumber: 17,
+      columnNumber: 13
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
     icon: icons[i],
@@ -693,39 +719,39 @@ const Services = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 13
-    }
-  }), __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 13
-    }
-  }, __jsx("h4", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 18,
       columnNumber: 15
     }
-  }, service.title), __jsx("p", {
+  }), __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
       columnNumber: 15
     }
+  }, __jsx("h4", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 17
+    }
+  }, service.title), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 17
+    }
   }, service.item))))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_4__["default"], {
     name: name,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
+      lineNumber: 26,
+      columnNumber: 9
     }
-  }));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Services);
@@ -744,63 +770,79 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/TopCopy.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const TopCopy = () => {
-  const name = "Get started!";
-  return __jsx("div", {
-    className: "top-copy",
-    id: "home",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "copy-container",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 7
-    }
-  }, __jsx("h1", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, "Let's set your goals and achieve it!"), __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }, "\u79C1\u305F\u3061\u306F\u3001\u5922\u3084\u76EE\u6A19\u3092\u6301\u3063\u3066\u5B66\u7FD2\u3057\u3001\u305D\u308C\u306B\u3088\u308A\u6210\u9577\u3092\u7D9A\u3051\u308B\u65B9\u3092\u5FDC\u63F4\u3057\u307E\u3059\u3002", __jsx("br", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 11
-    }
-  }), "\u30B4\u30FC\u30EB\u3067\u304D\u305F\u6642\u306E\u559C\u3073\u3092\u5FD8\u308C\u305A\u306B\u3001\u3055\u3089\u306A\u308B\u6210\u9577\u306B\u7E4B\u3052\u307E\u3057\u3087\u3046\uFF01")), __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: name,
-    url: "#services",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 7
-    }
-  }));
-};
 
+
+class TopCopy extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    const name = "Get started!";
+    return __jsx("div", {
+      className: "top-copy",
+      id: "home",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 7
+      }
+    }, __jsx("div", {
+      className: "copy-container",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 9
+      }
+    }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      top: true,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 11
+      }
+    }, __jsx("h1", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 13
+      }
+    }, "Let's set your goals and achieve it!"), __jsx("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 13
+      }
+    }, "\u79C1\u305F\u3061\u306F\u3001\u5922\u3084\u76EE\u6A19\u3092\u6301\u3063\u3066\u5B66\u7FD2\u3057\u3001\u305D\u308C\u306B\u3088\u308A\u6210\u9577\u3092\u7D9A\u3051\u308B\u65B9\u3092\u5FDC\u63F4\u3057\u307E\u3059\u3002", __jsx("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 15
+      }
+    }), "\u30B4\u30FC\u30EB\u3067\u304D\u305F\u6642\u306E\u559C\u3073\u3092\u5FD8\u308C\u305A\u306B\u3001\u3055\u3089\u306A\u308B\u6210\u9577\u306B\u7E4B\u3052\u307E\u3057\u3087\u3046\uFF01"))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      name: name,
+      url: "#services",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+;
 /* harmony default export */ __webpack_exports__["default"] = (TopCopy);
 
 /***/ }),
@@ -920,6 +962,17 @@ module.exports = require("@typeform/embed");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-reveal/Fade":
+/*!************************************!*\
+  !*** external "react-reveal/Fade" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-reveal/Fade");
 
 /***/ })
 
