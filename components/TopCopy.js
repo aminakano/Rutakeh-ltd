@@ -17,7 +17,7 @@ class TopCopy extends Component {
             </p>
           </Fade>
         </div>
-        <Button name={name} url={"#services"} />
+          <Button name={name} url={"#services"} />
       </div>
     );
   }

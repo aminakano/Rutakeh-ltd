@@ -5,23 +5,42 @@
   background-size: cover;
   @include flex-column;
   color: $white;
-  justify-content: center;
+  justify-content: space-evenly;
+  @include breakpoint(lg){
+    justify-content: center;
+  }
 
   .copy-container {
-    margin-left: 5rem;
+    @include breakpoint(lg){
+      margin-left: 5rem;
+    }
     h1 {
-      font-size: $h1;
-      width: 50%;
+      font-size: 3rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      @include breakpoint(lg){
+        font-size: $h1;
+        width: 50%;
+        text-align: initial;
+      }
     }
   
     p {
       @include font-family($font-jp, 300);
-      font-size: 1.5rem;
+      font-size: $h5;
+      text-align: center;
+      @include breakpoint(lg){
+        font-size: 1.5rem;
+        text-align: initial;
+      }
     }
   }
-  button {
-    align-self: flex-end;
-    margin-right: 10rem;
+  button {  
+
+    @include breakpoint(lg){
+      align-self: flex-end;
+      margin-right: 10rem;
+    }
   }
 
 }
@@ -29,7 +48,12 @@
 .services {
   @include flex-column;
   background: $primary-color;
-  padding: 5%;
+  padding: 5% 0;
+
+  @include breakpoint(lg){
+    padding: 5%;
+  }
+
 
   h3 {
     color: $white;
@@ -46,14 +70,21 @@
     border-radius: 10px;
 
     li {
-      display: flex;
-      align-items: center;
-      width: 35%;
-      justify-content: space-between;
+      
       padding: 0.5rem;
-      &:first-child,
-      &:nth-child(2) {
-        margin-bottom: 3rem;
+      @include flex-column;
+      width: 90%;
+      margin-bottom: 2rem;
+      @include breakpoint(lg){
+        flex-direction: row;
+        align-items: center;
+        width: 35%;
+        justify-content: space-between;
+
+        &:first-child,
+        &:nth-child(2) {
+          margin-bottom: 3rem;
+        }
       }
 
       .icon {
@@ -74,18 +105,28 @@
 .about {
   @include flex-column;
   justify-content: center;
-  padding: 5%;
+  padding: 5% 0;
+  @include breakpoint(lg) {
+    padding: 5%;
+  }
   div {
     padding: 2rem 0;
     h4 {
       text-align: center;
     }
     ul {
-      min-width: 500px;
+      
+      @include breakpoint(lg) {
+        min-width: 500px;
+      }
       li {
         display: flex;
         align-items: center;
-        margin: 1rem;
+        margin: 1rem 0.5rem;
+
+        @include breakpoint(lg) {
+          margin: 1rem;
+        } 
         h5 {
           color: $primary-color;
           font-size: $h5;
@@ -97,7 +138,13 @@
           padding-left: 1rem;
           margin-left: 1rem;
           border-left: 1px solid $primary-color;
-          @include font-family($font-jp, 300)
+          @include font-family($font-jp, 300);
+          max-width: 240px;
+
+          @include breakpoint(lg) {
+            max-width: initial;
+          }
+
         }
       }
     }  
