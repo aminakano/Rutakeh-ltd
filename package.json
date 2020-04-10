@@ -1,5 +1,5 @@
 {
-  "name": "hello-next",
+  "name": "rutake-ltd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "export": "npm run build && next export"
   },
   "keywords": [],
   "author": "",
@@ -30,7 +29,6 @@
     "styled-jsx": "^3.2.5"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
     "url-loader": "^4.0.0"
   }
 }
