@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
+import HeadTag from "./HeadTag";
 
 const layoutStyle = {
   // margin: 20,
@@ -11,6 +12,7 @@ const layoutStyle = {
 const withLayout = Page => {
   return () => (
     <div style={layoutStyle}>
+      <HeadTag />
       <Header />
       <Page />
       <Footer />
