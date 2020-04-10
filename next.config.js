@@ -1,6 +1,14 @@
 const withSass = require("@zeit/next-sass");
 const withCSS = require("@zeit/next-css");
 const withImages = require("next-images");
+const isProd = (process.env.NODE_ENV || "production") === "production";
+
+module.exports = {
+  exportPathMap: () => ({
+    "/": { page: "/" },
+  }),
+  assetPrefix: isProd ? "/aminakano/Rutakeh-ltd" : "",
+};
 module.exports = withImages();
 module.exports = withCSS(
   withSass({

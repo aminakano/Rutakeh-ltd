@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport AnchorLink from \"react-anchor-link-smooth-scroll\";\n\nvar Button = function Button(props) {\n  return __jsx(\"button\", null, __jsx(AnchorLink, {\n    href: props.url\n  }, props.name));\n};\n\nexport default Button;","map":null,"metadata":{},"sourceType":"module"}
