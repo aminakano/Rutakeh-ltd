@@ -205,15 +205,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Button = function Button(props) {
-  return __jsx("button", {
+  return __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: props.url,
+    className: "button",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
       columnNumber: 5
     }
-  }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: props.url,
+  }, __jsx("button", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,

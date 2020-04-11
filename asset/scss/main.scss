@@ -46,13 +46,8 @@ button {
   border: none;
   border-radius: $border10;
   font-family: $font-en;
+  color: $white;
 
-  a {
-    color: $white;
-    &:hover {
-      text-decoration: none;
-    }
-  }
   &:hover {
     cursor: pointer;
     background-color: $secondary-color;
