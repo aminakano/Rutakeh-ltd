@@ -1,17 +1,11 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import HeadTag from "./HeadTag";
-
-const layoutStyle = {
-  // margin: 20,
-  // padding: 20,
-  // background: "#17a2b8",
-  // border: "1px solid #DDD"
-};
+import "../asset/fonts/fonts.scss";
 
 const withLayout = Page => {
   return () => (
-    <div style={layoutStyle}>
+    <div>
       <HeadTag />
       <Header />
       <Page />

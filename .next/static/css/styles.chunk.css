@@ -144,12 +144,13 @@ header {
         text-align: initial;
         margin-top: 0; } }
   .top-copy .copy-container p {
-    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-family: "07LogoTypeGothic7", sans-serif;
     font-weight: 300;
     font-size: 1rem;
     text-align: center;
     width: 80%;
-    margin: 0 10%; }
+    margin: 0 10%;
+    line-height: 1.2; }
     @media (min-width: 1024px) {
       .top-copy .copy-container p {
         font-size: 1.5rem;
@@ -328,9 +329,12 @@ h3 {
 h4 {
   text-align: center;
   font-size: 1.25rem;
-  font-family: "M PLUS Rounded 1c", sans-serif;
   margin-bottom: 1rem;
-  font-weight: 400; }
+  font-family: "07LogoTypeGothic7", sans-serif;
+  font-weight: 300; }
+  @media (min-width: 768px) {
+    h4 {
+      font-size: 1.5rem; } }
 
 button {
   min-width: 150px;
@@ -347,6 +351,12 @@ button {
   button:hover {
     cursor: pointer;
     background-color: #b82d17; }
+
+@font-face {
+  font-family: '07LogoTypeGothic7';
+  src: url([object Module]) format("woff2"), url([object Module]) format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

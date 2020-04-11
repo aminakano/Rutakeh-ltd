@@ -37,11 +37,12 @@
     }
   
     p {
-      @include font-family($font-jp, 300);
+      @include font-family($font-jp2, 300);
       font-size: $h5;
       text-align: center;
       width: 80%;
       margin: 0 10%;
+      line-height: 1.2;
       @include breakpoint(lg){
         font-size: 1.5rem;
         text-align: initial;

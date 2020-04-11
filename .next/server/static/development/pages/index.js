@@ -88,10 +88,21 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./asset/fonts/fonts.scss":
+/*!********************************!*\
+  !*** ./asset/fonts/fonts.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
 
 /***/ "./asset/json/data.json":
 /*!******************************!*\
@@ -756,53 +767,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 /* harmony import */ var _HeadTag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HeadTag */ "./components/HeadTag.js");
+/* harmony import */ var _asset_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../asset/fonts/fonts.scss */ "./asset/fonts/fonts.scss");
+/* harmony import */ var _asset_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const layoutStyle = {// margin: 20,
-  // padding: 20,
-  // background: "#17a2b8",
-  // border: "1px solid #DDD"
-};
+
 
 const withLayout = Page => {
   return () => __jsx("div", {
-    style: layoutStyle,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 8,
       columnNumber: 5
     }
   }, __jsx(_HeadTag__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 9,
       columnNumber: 7
     }
   }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 10,
       columnNumber: 7
     }
   }), __jsx(Page, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 11,
       columnNumber: 7
     }
   }), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 12,
       columnNumber: 7
     }
   }));
@@ -1052,28 +1060,28 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 12,
     columnNumber: 3
   }
 }), __jsx(_components_OurServices__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12,
+    lineNumber: 13,
     columnNumber: 3
   }
 }), __jsx(_components_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13,
+    lineNumber: 14,
     columnNumber: 3
   }
 }), __jsx(_components_Contact__WEBPACK_IMPORTED_MODULE_6__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14,
+    lineNumber: 15,
     columnNumber: 3
   }
 }));
@@ -1082,7 +1090,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
