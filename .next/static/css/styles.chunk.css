@@ -139,7 +139,6 @@ header {
         font-size: 5rem; } }
     @media (min-width: 1024px) {
       .top-copy .copy-container h1 {
-        font-size: 5rem;
         width: 50%;
         text-align: initial;
         margin-top: 0; } }
