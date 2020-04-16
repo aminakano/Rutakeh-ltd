@@ -11,13 +11,16 @@ class TopCopy extends Component {
           <Fade top>
             <h1>Let's set your goals and achieve it!</h1>
             <p>
-              私たちは、夢や目標を持って学習し、それにより成長を続ける方を応援します。
-              <br />
-              ゴールできた時の喜びを忘れずに、さらなる成長に繋げましょう！
+              <span>
+                私たちは、夢や目標を持って学習し、それにより成長を続ける方を応援します。
+              </span>
+              <span>
+                ゴールできた時の喜びを忘れずに、さらなる成長に繋げましょう！
+              </span>
             </p>
           </Fade>
         </div>
-          <Button name={name} url={"#services"} />
+        <Button name={name} url={"#services"} />
       </div>
     );
   }
