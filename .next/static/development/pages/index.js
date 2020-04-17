@@ -31,6 +31,7 @@ __webpack_require__.r(__webpack_exports__);
 var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../asset/json/data.json */ "./asset/json/data.json", 1);
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "./node_modules/react-reveal/Fade.js");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
 
 
 
@@ -43,6 +44,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -66,27 +68,28 @@ var About = /*#__PURE__*/function (_Component) {
 
       var infos = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__.info.company;
       var histories = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__.info.history;
+      var name = "With us?";
       return __jsx("div", {
         className: "about",
         id: "about",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 12,
           columnNumber: 7
         }
       }, __jsx("h3", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 13,
           columnNumber: 9
         }
       }, "About us"), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 14,
           columnNumber: 9
         }
       }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -94,21 +97,21 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 15,
           columnNumber: 11
         }
       }, __jsx("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 16,
           columnNumber: 13
         }
       }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 17,
           columnNumber: 13
         }
       }, infos.map(function (info, i) {
@@ -117,21 +120,21 @@ var About = /*#__PURE__*/function (_Component) {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 17
           }
         }, __jsx("h5", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 19
           }
         }, info.title), __jsx("p", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 21,
             columnNumber: 19
           }
         }, info.item));
@@ -139,14 +142,14 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 25,
           columnNumber: 13
         }
       }, "\u6CBF\u9769"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 26,
           columnNumber: 13
         }
       }, histories.map(function (history, i) {
@@ -155,25 +158,34 @@ var About = /*#__PURE__*/function (_Component) {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 17
           }
         }, __jsx("h5", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 29,
             columnNumber: 19
           }
         }, history.title), __jsx("p", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 19
           }
         }, history.item));
-      })))));
+      })))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        name: name,
+        url: "#contact",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 9
+        }
+      }));
     }
   }]);
 
@@ -847,7 +859,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Services = function Services() {
   var services = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_3__.info.service;
   var icons = [_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faLaptop"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faChalkboardTeacher"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faGlobe"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faUserFriends"]];
-  var name = "With us?";
+  var name = "Who we are";
   return __jsx("div", {
     className: "services",
     id: "services",

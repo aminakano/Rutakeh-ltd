@@ -1,12 +1,13 @@
 import data from "../asset/json/data.json";
 import Fade from "react-reveal/Fade";
 import { Component } from "react";
+import Button from "./Button";
 
 class About extends Component {
   render(){
     const infos = data.info.company;
     const histories = data.info.history;
-
+    const name = "With us?";
     return (
       <div className="about" id="about">
         <h3>About us</h3>
@@ -32,6 +33,7 @@ class About extends Component {
             </ul>
           </Fade>
         </div>
+        <Button name={name} url={"#contact"} />
       </div>
     );
   }

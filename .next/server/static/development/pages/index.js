@@ -141,9 +141,11 @@ __webpack_require__.r(__webpack_exports__);
 var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../asset/json/data.json */ "./asset/json/data.json", 1);
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/About.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -152,27 +154,28 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     const infos = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__.info.company;
     const histories = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1__.info.history;
+    const name = "With us?";
     return __jsx("div", {
       className: "about",
       id: "about",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 12,
         columnNumber: 7
       }
     }, __jsx("h3", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 9
       }
     }, "About us"), __jsx("div", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 9
       }
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -180,21 +183,21 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 11
       }
     }, __jsx("h4", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 13
       }
     }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 17,
         columnNumber: 13
       }
     }, infos.map((info, i) => __jsx("li", {
@@ -202,35 +205,35 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 17
       }
     }, __jsx("h5", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 20,
         columnNumber: 19
       }
     }, info.title), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 21,
         columnNumber: 19
       }
     }, info.item)))), __jsx("h4", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 13
       }
     }, "\u6CBF\u9769"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 13
       }
     }, histories.map((history, i) => __jsx("li", {
@@ -238,24 +241,33 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 28,
         columnNumber: 17
       }
     }, __jsx("h5", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 19
       }
     }, history.title), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 19
       }
-    }, history.item)))))));
+    }, history.item)))))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      name: name,
+      url: "#contact",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 9
+      }
+    }));
   }
 
 }
@@ -853,7 +865,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Services = () => {
   const services = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_3__.info.service;
   const icons = [_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faLaptop"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faChalkboardTeacher"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faGlobe"], _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faUserFriends"]];
-  const name = "With us?";
+  const name = "Who we are";
   return __jsx("div", {
     className: "services",
     id: "services",

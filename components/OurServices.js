@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 const Services = () => {
   const services = data.info.service;
   const icons = [faLaptop, faChalkboardTeacher, faGlobe, faUserFriends];
-  const name = "With us?";
+  const name = "Who we are";
   return (
     <div className="services" id="services">
       <Fade bottom>

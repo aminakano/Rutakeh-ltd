@@ -1,9 +1,9 @@
 webpackHotUpdate("static/development/pages/index.js",{
 
-/***/ "./components/TopCopy.js":
-/*!*******************************!*\
-  !*** ./components/TopCopy.js ***!
-  \*******************************/
+/***/ "./components/About.js":
+/*!*****************************!*\
+  !*** ./components/About.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16,15 +16,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
+/* harmony import */ var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../asset/json/data.json */ "./asset/json/data.json");
+var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../asset/json/data.json */ "./asset/json/data.json", 1);
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "./node_modules/react-reveal/Fade.js");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
 
 
 
 
 
-var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/TopCopy.js";
+var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/About.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
@@ -36,88 +38,152 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var TopCopy = /*#__PURE__*/function (_Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(TopCopy, _Component);
 
-  var _super = _createSuper(TopCopy);
+var About = /*#__PURE__*/function (_Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(About, _Component);
 
-  function TopCopy() {
-    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, TopCopy);
+  var _super = _createSuper(About);
+
+  function About() {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, About);
 
     return _super.apply(this, arguments);
   }
 
-  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(TopCopy, [{
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(About, [{
     key: "render",
     value: function render() {
-      var name = "Get started!";
+      var _this = this;
+
+      var infos = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__.info.company;
+      var histories = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__.info.history;
+      var name = "With us?";
       return __jsx("div", {
-        className: "top-copy",
-        id: "home",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9,
-          columnNumber: 7
-        }
-      }, __jsx("div", {
-        className: "copy-container",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10,
-          columnNumber: 9
-        }
-      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        top: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11,
-          columnNumber: 11
-        }
-      }, __jsx("h1", {
+        className: "about",
+        id: "about",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12,
-          columnNumber: 13
+          columnNumber: 7
         }
-      }, "Let's set your goals and achieve it!"), __jsx("p", {
+      }, __jsx("h3", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13,
-          columnNumber: 13
+          columnNumber: 9
         }
-      }, "\u79C1\u305F\u3061\u306F\u3001\u5922\u3084\u76EE\u6A19\u3092\u6301\u3063\u3066\u5B66\u7FD2\u3057\u3001\u305D\u308C\u306B\u3088\u308A\u6210\u9577\u3092\u7D9A\u3051\u308B\u65B9\u3092\u5FDC\u63F4\u3057\u307E\u3059\u3002", __jsx("br", {
-        className: "no-small",
+      }, "About us"), __jsx("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 9
+        }
+      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        bottom: true,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15,
-          columnNumber: 15
+          columnNumber: 11
         }
-      }), "\u30B4\u30FC\u30EB\u3067\u304D\u305F\u6642\u306E\u559C\u3073\u3092\u5FD8\u308C\u305A\u306B\u3001\u3055\u3089\u306A\u308B\u6210\u9577\u306B\u7E4B\u3052\u307E\u3057\u3087\u3046\uFF01"))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        name: name,
-        url: "#services",
+      }, __jsx("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 11
+          lineNumber: 16,
+          columnNumber: 13
+        }
+      }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 13
+        }
+      }, infos.map(function (info, i) {
+        return __jsx("li", {
+          key: i,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 17
+          }
+        }, __jsx("h5", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 20,
+            columnNumber: 19
+          }
+        }, info.title), __jsx("p", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 21,
+            columnNumber: 19
+          }
+        }, info.item));
+      })), __jsx("h4", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 13
+        }
+      }, "\u6CBF\u9769"), __jsx("ul", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 13
+        }
+      }, histories.map(function (history, i) {
+        return __jsx("li", {
+          key: i,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 28,
+            columnNumber: 17
+          }
+        }, __jsx("h5", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 29,
+            columnNumber: 19
+          }
+        }, history.title), __jsx("p", {
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 19
+          }
+        }, history.item));
+      })))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        name: name,
+        url: "#contact",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 9
         }
       }));
     }
   }]);
 
-  return TopCopy;
+  return About;
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
-;
-/* harmony default export */ __webpack_exports__["default"] = (TopCopy);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.b0ecffa5738ce592680d.hot-update.js.map
+//# sourceMappingURL=index.js.6e4256e82034e5174de3.hot-update.js.map
