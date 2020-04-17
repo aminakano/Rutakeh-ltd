@@ -173,7 +173,8 @@ header {
   padding: 20% 0 10%; }
   @media (min-width: 1024px) {
     .services {
-      padding: 5%; } }
+      padding: 5%;
+      height: 100vh; } }
   .services h3 {
     color: #fff; }
   .services .services-list {
@@ -222,7 +223,8 @@ header {
   padding: 20% 0 10%; }
   @media (min-width: 1024px) {
     .about {
-      padding: 5%; } }
+      padding: 5%;
+      max-height: 100vh; } }
   .about div {
     padding: 2rem 0; }
     .about div h4 {
@@ -239,12 +241,12 @@ header {
           font-size: 0.9rem; } }
       @media (min-width: 1024px) {
         .about div ul li {
-          margin: 1rem; } }
+          margin: 0.6rem; } }
       .about div ul li h5 {
         color: #17a2b8;
         font-size: 1rem;
         text-align: right;
-        width: 4rem;
+        width: 6rem;
         font-family: "M PLUS Rounded 1c", sans-serif;
         font-weight: 500; }
       .about div ul li p {
@@ -350,7 +352,8 @@ button {
   border: none;
   border-radius: 10px;
   font-family: "Noto Sans", sans-serif;
-  color: #fff; }
+  color: #fff;
+  outline: none; }
   button:hover {
     cursor: pointer;
     background-color: #b82d17; }

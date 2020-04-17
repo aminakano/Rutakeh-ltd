@@ -5,12 +5,12 @@ import "../asset/fonts/fonts.scss";
 
 const withLayout = Page => {
   return () => (
-    <div>
+    <>
       <HeadTag />
       <Header />
       <Page />
       <Footer />
-    </div>
+    </>
   );
 }
 

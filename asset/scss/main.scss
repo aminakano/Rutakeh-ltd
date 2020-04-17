@@ -47,6 +47,7 @@ button {
   border-radius: $border10;
   font-family: $font-en;
   color: $white;
+  outline: none;
 
   &:hover {
     cursor: pointer;
