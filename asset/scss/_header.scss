@@ -7,6 +7,7 @@ header {
   color: $white;
   background-color: transparent;
   z-index: 10;
+  align-items: center;
 
   a {
     color: inherit;
@@ -66,7 +67,7 @@ header {
   }
 
   ul {
-    display: none;
+    // display: none;
     @include breakpoint(md) {
       display: flex;
       align-items: center;
@@ -83,6 +84,11 @@ header {
       }
     }
   }
+
+  .navbar {
+    margin-right: 1rem;
+  }
+
   .hamburger {
     display: block;
     position: relative;

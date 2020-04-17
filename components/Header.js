@@ -1,11 +1,12 @@
 import { Component } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import NavBar from "./NavBar";
 
 class Header extends Component {
   componentDidMount() {
     const header = document.getElementById("header");
     let scrollPos = 0;
-    const hamburger = document.getElementById("hamburger");
+    // const hamburger = document.getElementById("hamburger");
 
     const headerEffect = (position) => {
       if (position > 32) {
@@ -20,14 +21,11 @@ class Header extends Component {
       headerEffect(scrollPos);
     });
 
-
-    hamburger.addEventListener("click", (e) => {
-      header.classList.toggle("active");
-    });
-
-    
+    // hamburger.addEventListener("click", (e) => {
+    //   header.classList.toggle("active");
+    // });
   }
-  render () {
+  render() {
     return (
       <header id="header">
         <AnchorLink href="#home">
@@ -36,7 +34,7 @@ class Header extends Component {
             <span>龍武株式会社</span>
           </h2>
         </AnchorLink>
-        <ul>
+        {/* <ul>
           <li>
             <AnchorLink href="#home">Home</AnchorLink>
           </li>
@@ -55,7 +53,8 @@ class Header extends Component {
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </div> */}
+        <NavBar />
       </header>
     );
   }
