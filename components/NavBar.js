@@ -7,8 +7,7 @@ class NavBar extends Component {
   constructor() {
     super();
     this.state = {
-      open: false,
-      hideOrShowHambugerDropDown: "nav",
+      open: false
     };
   }
   handleClick = () => {
@@ -24,7 +23,7 @@ class NavBar extends Component {
         height={20}
         strokeWidth={3}
         rotate={0}
-        color="white"
+        color={this.state.open ? "white" : "#3e4348"}
         borderRadius={2}
         animationDuration={0.5}
       />

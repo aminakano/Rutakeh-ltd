@@ -151,9 +151,10 @@
         display: flex;
         align-items: center;
         margin: 1rem 0.5rem;
+        font-size: 0.9rem;
 
-        @include breakpoint(xxs) {
-          font-size: 0.9rem;
+        @include breakpoint(md) {
+          font-size: 1rem;
         }
         @include breakpoint(lg) {
           margin: 0.6rem;
@@ -161,10 +162,16 @@
 
         h5 {
           color: $primary-color;
-          font-size: $h5;
+          font-size: 0.9rem;
           text-align: right;
-          width: 6rem;
-          @include font-family($font-jp, 500)
+          width: 5rem;
+          @include font-family($font-jp, 500);
+
+          @include breakpoint(md) {
+            font-size: $h5;
+            width: 6rem;
+          }
+
         }
         p {
           padding-left: 1rem;
@@ -202,8 +209,13 @@
     text-align: center;
     @include font-family($font-jp, 300);
     width: 80%;
+
     @include breakpoint(xxs){
       font-size: 0.9rem;
+    }
+
+    @include breakpoint (md) {
+      @include flex-column;
     }
 
     a {

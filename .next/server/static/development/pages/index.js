@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -368,26 +368,40 @@ const Contact = () => {
       lineNumber: 10,
       columnNumber: 7
     }
-  }, "\u6CD5\u4EBA\u3001\u500B\u4EBA\u306E\u65B9\u554F\u308F\u305A\u3001\u304A\u6C17\u8EFD\u306B\u304A\u554F\u5408\u305B\u304F\u3060\u3055\u3044\u3002", __jsx("br", {
+  }, __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, "\u6CD5\u4EBA\u3001\u500B\u4EBA\u306E\u65B9\u554F\u308F\u305A\u3001\u304A\u6C17\u8EFD\u306B\u304A\u554F\u5408\u305B\u304F\u3060\u3055\u3044\u3002"), __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
       columnNumber: 9
     }
-  }), "3\u55B6\u696D\u65E5\u4EE5\u5185\u306B\u8FD4\u4FE1\u304C\u306A\u3044\u5834\u5408\u3001\u304A\u624B\u6570\u3067\u3059\u304C", __jsx("a", {
+  }, "\u65E9\u3081\u306E\u8FD4\u4FE1\u3092\u5FC3\u304C\u3051\u3066\u304A\u308A\u307E\u3059\u304C\u3001\u304A\u6642\u9593\u3044\u305F\u3060\u304F\u3053\u3068\u3082\u3054\u3056\u3044\u307E\u3059\u3002"), __jsx("span", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 9
+    }
+  }, "3\u55B6\u696D\u65E5\u4EE5\u5185\u306B\u8FD4\u4FE1\u304C\u306A\u3044\u5834\u5408\u3001\u304A\u624B\u6570\u3067\u3059\u304C", __jsx("a", {
     href: "mailto: contact@rutakeh.com",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 9
+      lineNumber: 16,
+      columnNumber: 11
     }
-  }, "contact@rutakeh.com"), "\u307E\u305F\u306F\u304A\u96FB\u8A71\u306B\u3066\u3054\u9023\u7D61\u3092\u304A\u9858\u3044\u3044\u305F\u3057\u307E\u3059\u3002"), __jsx(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "contact@rutakeh.com"), "\u306B\u3054\u9023\u7D61\u3092\u304A\u9858\u3044\u3044\u305F\u3057\u307E\u3059\u3002")), __jsx(_Form__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 20,
       columnNumber: 7
     }
   }), __jsx("div", {
@@ -395,7 +409,7 @@ const Contact = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 21,
       columnNumber: 7
     }
   }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -403,7 +417,7 @@ const Contact = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 22,
       columnNumber: 9
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -411,7 +425,7 @@ const Contact = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 23,
       columnNumber: 11
     }
   }))));
@@ -772,13 +786,13 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         height: 20,
         strokeWidth: 3,
         rotate: 0,
-        color: "white",
+        color: this.state.open ? "white" : "#3e4348",
         borderRadius: 2,
         animationDuration: 0.5,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 19,
           columnNumber: 7
         }
       });
@@ -790,14 +804,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 35,
           columnNumber: 7
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 36,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -805,14 +819,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 37,
           columnNumber: 11
         }
       }, "Home")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 39,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -820,14 +834,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 40,
           columnNumber: 11
         }
       }, "Services")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 42,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -835,14 +849,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 43,
           columnNumber: 11
         }
       }, "About")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 45,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -850,7 +864,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 46,
           columnNumber: 11
         }
       }, "Contact")));
@@ -862,14 +876,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 54,
           columnNumber: 7
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 55,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -877,14 +891,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 56,
           columnNumber: 11
         }
       }, "Home")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 58,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -892,14 +906,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 59,
           columnNumber: 11
         }
       }, "Services")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 61,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -907,14 +921,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 62,
           columnNumber: 11
         }
       }, "About")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 64,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -922,15 +936,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 65,
           columnNumber: 11
         }
       }, "Contact")));
     });
 
     this.state = {
-      open: false,
-      hideOrShowHambugerDropDown: "nav"
+      open: false
     };
   }
 
@@ -940,7 +953,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 73,
         columnNumber: 7
       }
     }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_3___default.a.innerWidth > 768 ? this.displayNavBar() : this.displayHamburgerMenu());
@@ -1229,7 +1242,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
