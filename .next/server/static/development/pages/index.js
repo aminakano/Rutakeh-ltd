@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -596,7 +596,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   componentDidMount() {
     const header = document.getElementById("header");
-    let scrollPos = 0; // const hamburger = document.getElementById("hamburger");
+    let scrollPos = 0;
 
     const headerEffect = position => {
       if (position > 32) {
@@ -609,9 +609,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     window.addEventListener("scroll", e => {
       scrollPos = window.scrollY;
       headerEffect(scrollPos);
-    }); // hamburger.addEventListener("click", (e) => {
-    //   header.classList.toggle("active");
-    // });
+    });
   }
 
   render() {
@@ -620,7 +618,7 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 25,
         columnNumber: 7
       }
     }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -628,35 +626,35 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
+        lineNumber: 26,
         columnNumber: 9
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 27,
         columnNumber: 11
       }
     }, __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 28,
         columnNumber: 13
       }
     }, "Rutakeh"), __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 29,
         columnNumber: 13
       }
     }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"))), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 32,
         columnNumber: 9
       }
     }));
@@ -1231,7 +1229,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

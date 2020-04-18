@@ -26,89 +26,58 @@ header {
   header.header-bg {
     color: #3e4348;
     background-color: rgba(255, 255, 255, 0.5); }
-    header.header-bg a {
+    header.header-bg ul.nav li a {
       color: #3e4348; }
-    header.header-bg #hamburger span {
-      background: #3e4348; }
-  header.active {
-    transition: transform 0.5s ease-in; }
-    header.active ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      background: #17a2b8;
-      height: 100vh;
-      width: 100vw;
-      padding-right: 5rem;
-      margin-right: -5rem;
-      -webkit-font-smoothing: antialiased; }
-      header.active ul li {
-        font-size: 1.5rem;
-        font-weight: bold; }
   header h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0; }
+    padding: 0;
+    margin-left: 0.5rem; }
     header h2 span:last-child {
       font-size: 0.95rem; }
     @media (min-width: 768px) {
       header h2 {
-        padding: 0 3rem; } }
-  @media (min-width: 768px) {
-    header ul {
-      display: flex;
-      align-items: center; } }
-  @media (min-width: 1024px) {
-    header ul {
-      margin-right: 3rem; } }
-  header ul li {
-    padding: 0 2rem; }
-    header ul li a {
-      color: #fff; }
+        padding: 0 3rem;
+        font-size: 2rem; } }
   header .navbar {
-    margin-right: 1rem; }
-  header .hamburger {
-    display: block;
-    position: relative;
-    top: 1rem;
-    right: 1.5rem; }
+    position: absolute;
+    top: -35px;
+    right: -40px; }
     @media (min-width: 768px) {
-      header .hamburger {
-        display: none; } }
-    header .hamburger input {
-      display: block;
-      width: 40px;
-      height: 32px;
-      position: absolute;
-      top: -7px;
-      left: -5px;
-      opacity: 0;
-      z-index: 2; }
-    header .hamburger span {
-      display: block;
-      width: 33px;
-      height: 3px;
-      margin-bottom: 8px;
-      position: relative;
-      background: #fff;
-      z-index: 1;
-      transform-origin: 4px 0px;
-      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
-      header .hamburger span:first-child {
-        transform-origin: 0% 100%; }
-      header .hamburger span:nth-of-type(2) {
-        transform-origin: 0% 0%; }
-    header .hamburger input:checked ~ span {
-      opacity: 1;
-      transform: rotate(45deg) translate(3px, 1px); }
-      header .hamburger input:checked ~ span:nth-of-type(2) {
-        opacity: 0;
-        transform: rotate(0deg) scale(0.2, 0.2); }
-      header .hamburger input:checked ~ span:last-child {
-        transform: rotate(-45deg) translate(1px, -2px); }
+      header .navbar {
+        top: 0;
+        right: 0;
+        height: 100%; } }
+    header .navbar div {
+      position: fixed !important;
+      top: 20px;
+      right: 20px; }
+    header .navbar ul.nav {
+      height: 100%; }
+      @media (min-width: 768px) {
+        header .navbar ul.nav {
+          display: flex;
+          align-items: center; } }
+      @media (min-width: 1024px) {
+        header .navbar ul.nav {
+          margin-right: 3rem; } }
+      header .navbar ul.nav li {
+        padding: 0 2rem; }
+    header .navbar ul.hamburgerDropDown {
+      background: rgba(184, 45, 23, 0.5);
+      border-radius: 50%;
+      height: 250px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      header .navbar ul.hamburgerDropDown li {
+        padding: 0.5rem 2rem 0.5rem 0; }
+        header .navbar ul.hamburgerDropDown li a {
+          color: #fff; }
 
 .top-copy {
   background-image: url("/bg.jpg");
@@ -358,6 +327,9 @@ button {
   button:hover {
     cursor: pointer;
     background-color: #b82d17; }
+
+#__next {
+  position: relative; }
 
 @font-face {
   font-family: '07LogoTypeGothic7';

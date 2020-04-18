@@ -583,7 +583,7 @@ var Header = /*#__PURE__*/function (_Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       var header = document.getElementById("header");
-      var scrollPos = 0; // const hamburger = document.getElementById("hamburger");
+      var scrollPos = 0;
 
       var headerEffect = function headerEffect(position) {
         if (position > 32) {
@@ -596,9 +596,7 @@ var Header = /*#__PURE__*/function (_Component) {
       window.addEventListener("scroll", function (e) {
         scrollPos = window.scrollY;
         headerEffect(scrollPos);
-      }); // hamburger.addEventListener("click", (e) => {
-      //   header.classList.toggle("active");
-      // });
+      });
     }
   }, {
     key: "render",
@@ -608,7 +606,7 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 25,
           columnNumber: 7
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -616,35 +614,35 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 26,
           columnNumber: 9
         }
       }, __jsx("h2", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 27,
           columnNumber: 11
         }
       }, __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 28,
           columnNumber: 13
         }
       }, "Rutakeh"), __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 29,
           columnNumber: 13
         }
       }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"))), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 32,
           columnNumber: 9
         }
       }));
@@ -13791,7 +13789,7 @@ var Page = function Page() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2FRutakeh%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -13814,5 +13812,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

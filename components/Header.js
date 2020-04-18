@@ -6,7 +6,6 @@ class Header extends Component {
   componentDidMount() {
     const header = document.getElementById("header");
     let scrollPos = 0;
-    // const hamburger = document.getElementById("hamburger");
 
     const headerEffect = (position) => {
       if (position > 32) {
@@ -20,10 +19,6 @@ class Header extends Component {
       scrollPos = window.scrollY;
       headerEffect(scrollPos);
     });
-
-    // hamburger.addEventListener("click", (e) => {
-    //   header.classList.toggle("active");
-    // });
   }
   render() {
     return (
@@ -34,26 +29,6 @@ class Header extends Component {
             <span>龍武株式会社</span>
           </h2>
         </AnchorLink>
-        {/* <ul>
-          <li>
-            <AnchorLink href="#home">Home</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink href="#services">Services</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink href="#about">About</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink href="#contact">Contact</AnchorLink>
-          </li>
-        </ul>
-        <div className="hamburger" id="hamburger">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> */}
         <NavBar />
       </header>
     );
