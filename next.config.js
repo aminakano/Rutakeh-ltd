@@ -14,7 +14,7 @@ module.exports = withCSS(
   withSass({
     webpack(config, options) {
       config.module.rules.push({
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|otf)$/,
         use: {
           loader: "url-loader",
           options: {

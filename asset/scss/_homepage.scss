@@ -247,9 +247,15 @@
       align-self: flex-end;
       margin-right: 2rem;
       box-shadow: 0px 5px 15px 0px $black10;
+
       a {
         color: $primary-color;
         font-size: 2rem;
+        display: inline-flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
       }
 
       &:hover {

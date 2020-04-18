@@ -35,8 +35,10 @@ $ npm run export
 
 ### Reference for useful libraries
 
-* `fortawesome` Fontawesome components <https://github.com/FortAwesome/Font-Awesome/tree/1975bba5c4ade236c02bf2e5f9551160ee85109d/js-packages/%40fortawesome/free-brands-svg-icons>
+* `fortawesome` Fontawesome component <https://github.com/FortAwesome/Font-Awesome/tree/1975bba5c4ade236c02bf2e5f9551160ee85109d/js-packages/%40fortawesome/free-brands-svg-icons>
 
 * `global` To define window object <https://www.npmjs.com/package/global> 
 
 * `react-reveal` Smooth animation <https://www.npmjs.com/package/react-reveal>
+
+* `react-hamburger-menu` Hamburger navigation component <https://www.npmjs.com/package/react-hamburger-menu>

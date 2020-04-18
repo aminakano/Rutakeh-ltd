@@ -539,7 +539,7 @@ var HeadTag = function HeadTag() {
       lineNumber: 8,
       columnNumber: 5
     }
-  }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
+  }, "Rutakeh | \u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (HeadTag);

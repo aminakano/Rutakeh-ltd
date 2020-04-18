@@ -38,9 +38,9 @@ a {
     @media (min-width: 415px) { @content ; }
 	}
 	@else if $point == xs {
-    @media (min-width: 331px)  { @content ; }
+    @media (min-width: 331px) { @content ; }
 	}
 	@else if $point == xxs {
-    @media (max-width: 330px)  { @content ; }
+    @media (max-width: 330px) { @content ; }
 	}
 }
