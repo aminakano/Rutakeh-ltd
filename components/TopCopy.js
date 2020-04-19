@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Fade from "react-reveal/Fade";
+import window from "global";
 
 import { Component } from 'react';
 class TopCopy extends Component {
@@ -9,7 +10,11 @@ class TopCopy extends Component {
       <div className="top-copy" id="home">
         <div className="copy-container">
           <Fade top>
-            <h1>Let's set your goals and achieve it!</h1>
+            <h1>
+              <span>Let's set </span>
+              <span>your goals and </span>
+              <span>achieve it! </span>
+            </h1>
             <p>
               <span>
                 私たちは、夢や目標を持って学習し、それにより成長を続ける方を応援します。
