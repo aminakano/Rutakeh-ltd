@@ -1,6 +1,6 @@
 import * as typeformEmbed from "@typeform/embed";
 import { Component } from "react";
-const url = "https://aminakano.typeform.com/to/CzDNIR";
+const url = "https://rutakeh.typeform.com/to/BSebhs";
 
 class Form extends Component{
 

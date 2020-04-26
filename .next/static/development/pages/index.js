@@ -427,7 +427,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var url = "https://aminakano.typeform.com/to/CzDNIR";
+var url = "https://rutakeh.typeform.com/to/BSebhs";
 
 var Form = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Form, _Component);

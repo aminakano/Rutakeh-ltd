@@ -486,7 +486,7 @@ var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/Form.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const url = "https://aminakano.typeform.com/to/CzDNIR";
+const url = "https://rutakeh.typeform.com/to/BSebhs";
 
 class Form extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   componentDidMount() {
