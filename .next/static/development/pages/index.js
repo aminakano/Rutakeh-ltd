@@ -520,7 +520,7 @@ var HeadTag = function HeadTag() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 9,
       columnNumber: 5
     }
   }), __jsx("meta", {
@@ -529,14 +529,23 @@ var HeadTag = function HeadTag() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "//webfonts.xserver.jp/js/xserver.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
       columnNumber: 5
     }
   }), __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, "Rutakeh | \u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
