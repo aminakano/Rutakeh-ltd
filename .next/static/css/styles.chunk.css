@@ -82,7 +82,7 @@ header {
           color: #fff; }
 
 .top-copy {
-  background-image: url("/bg3.jpg");
+  background-image: url("/bg.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -259,13 +259,15 @@ header {
   @media (min-width: 1024px) {
     .contact {
       padding: 5%;
-      max-height: 80vh; } }
+      max-height: 100vh; } }
   .contact__wrapper {
     position: relative; }
     .contact__wrapper p {
       text-align: center;
       font-family: "M PLUS Rounded 1c", sans-serif;
-      font-weight: 300; }
+      font-weight: 300;
+      width: 90%;
+      padding: 0 5%; }
       @media (max-width: 330px) {
         .contact__wrapper p {
           font-size: 0.9rem; } }
@@ -273,7 +275,9 @@ header {
         .contact__wrapper p {
           display: flex;
           flex-direction: column;
-          align-items: center; } }
+          align-items: center;
+          width: 100%;
+          padding: 0; } }
       .contact__wrapper p a {
         font-family: "Noto Sans", sans-serif;
         font-weight: 500; }
@@ -282,6 +286,9 @@ header {
       @media (max-width: 330px) {
         .contact__wrapper #typeform {
           height: 200px; } }
+      @media (min-width: 1024px) {
+        .contact__wrapper #typeform {
+          height: 400px; } }
     .contact__wrapper .to-top {
       display: none; }
       @media (min-width: 768px) {
@@ -359,7 +366,7 @@ button {
 
 @font-face {
   font-family: '07LogoTypeGothic7';
-  src: url([object Module]) format("woff2"), url([object Module]) format("woff"), url([object Module]#07LogoTypeGothic7) format("svg");
+  src: url([object Module]) format("woff2"), url([object Module]) format("woff"), url([object Module]) format("truetype"), url([object Module]#07LogoTypeGothic7) format("svg");
   font-weight: normal;
   font-style: normal; }
 
