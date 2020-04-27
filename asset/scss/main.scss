@@ -26,6 +26,10 @@ h3 {
   @include breakpoint(xxs) {
   font-size: 1.5rem;
   }
+
+  @include breakpoint(lg) {
+    margin-bottom: 0;
+  }
 }
 
 h4 {

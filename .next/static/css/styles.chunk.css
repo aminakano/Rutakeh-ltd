@@ -82,7 +82,7 @@ header {
           color: #fff; }
 
 .top-copy {
-  background-image: url("/bg.jpg");
+  background-image: url("/bg3.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -151,7 +151,8 @@ header {
   @media (min-width: 1024px) {
     .services {
       padding: 5%;
-      height: 100vh; } }
+      height: 90vh;
+      justify-content: center; } }
   .services h3 {
     color: #fff; }
   .services .services-list {
@@ -165,7 +166,7 @@ header {
     border-radius: 10px; }
     @media (min-width: 1024px) {
       .services .services-list {
-        padding: 3% 0; } }
+        padding: 2% 0; } }
     .services .services-list li {
       padding: 0.5rem;
       display: flex;
@@ -178,9 +179,10 @@ header {
           flex-direction: row;
           align-items: center;
           width: 35%;
-          justify-content: space-between; }
+          justify-content: space-between;
+          margin-bottom: 1rem; }
           .services .services-list li:first-child, .services .services-list li:nth-child(2) {
-            margin-bottom: 3rem; } }
+            margin-bottom: 2rem; } }
       .services .services-list li .icon {
         color: #17a2b8;
         opacity: 0.8;
@@ -256,7 +258,7 @@ header {
   padding: 30% 0 5%; }
   @media (min-width: 1024px) {
     .contact {
-      padding: 10% 5% 5%; } }
+      padding: 5%; } }
   .contact p {
     text-align: center;
     font-family: "M PLUS Rounded 1c", sans-serif;
@@ -281,7 +283,7 @@ header {
         height: 200px; } }
     @media (min-width: 1024px) {
       .contact #typeform {
-        padding: 2rem;
+        padding: 1rem;
         width: 50%; } }
   .contact .to-top {
     display: none; }
@@ -326,6 +328,9 @@ h3 {
   @media (max-width: 330px) {
     h3 {
       font-size: 1.5rem; } }
+  @media (min-width: 1024px) {
+    h3 {
+      margin-bottom: 0; } }
 
 h4 {
   text-align: center;
