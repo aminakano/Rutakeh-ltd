@@ -8,6 +8,11 @@
   justify-content: center;
   background-position: center;
 
+  // .mask {
+  //   background: $white20;
+  //   width: 100%;
+  //   height: 80%;
+  // }
   .copy-container {
     @include breakpoint(lg){
       margin: 0 5rem;
