@@ -258,57 +258,55 @@ header {
   padding: 30% 0 5%; }
   @media (min-width: 1024px) {
     .contact {
-      padding: 5%; } }
-  .contact p {
-    text-align: center;
-    font-family: "M PLUS Rounded 1c", sans-serif;
-    font-weight: 300;
-    width: 80%; }
-    @media (max-width: 330px) {
-      .contact p {
-        font-size: 0.9rem; } }
-    @media (min-width: 768px) {
-      .contact p {
-        display: flex;
-        flex-direction: column;
-        align-items: center; } }
-    .contact p a {
-      font-family: "Noto Sans", sans-serif;
-      font-weight: 500; }
-  .contact #typeform {
-    width: 90%;
-    height: 350px; }
-    @media (max-width: 330px) {
-      .contact #typeform {
-        height: 200px; } }
-    @media (min-width: 1024px) {
-      .contact #typeform {
-        padding: 1rem;
-        width: 50%; } }
-  .contact .to-top {
-    display: none; }
-    @media (min-width: 768px) {
-      .contact .to-top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #fff;
-        border-radius: 50%;
-        width: 5rem;
-        height: 5rem;
-        align-self: flex-end;
-        margin-right: 2rem;
-        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1); }
-        .contact .to-top a {
-          color: #17a2b8;
-          font-size: 2rem;
-          display: inline-flex;
-          height: 100%;
-          width: 100%;
+      padding: 5%;
+      max-height: 80vh; } }
+  .contact__wrapper {
+    position: relative; }
+    .contact__wrapper p {
+      text-align: center;
+      font-family: "M PLUS Rounded 1c", sans-serif;
+      font-weight: 300; }
+      @media (max-width: 330px) {
+        .contact__wrapper p {
+          font-size: 0.9rem; } }
+      @media (min-width: 768px) {
+        .contact__wrapper p {
+          display: flex;
+          flex-direction: column;
+          align-items: center; } }
+      .contact__wrapper p a {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500; }
+    .contact__wrapper #typeform {
+      height: 350px; }
+      @media (max-width: 330px) {
+        .contact__wrapper #typeform {
+          height: 200px; } }
+    .contact__wrapper .to-top {
+      display: none; }
+      @media (min-width: 768px) {
+        .contact__wrapper .to-top {
+          display: flex;
           justify-content: center;
-          align-items: center; }
-        .contact .to-top:hover {
-          cursor: pointer; } }
+          align-items: center;
+          background: #fff;
+          border-radius: 50%;
+          width: 5rem;
+          height: 5rem;
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+          position: absolute;
+          bottom: 0;
+          right: -200px; }
+          .contact__wrapper .to-top a {
+            color: #17a2b8;
+            font-size: 2rem;
+            display: inline-flex;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            align-items: center; }
+          .contact__wrapper .to-top:hover {
+            cursor: pointer; } }
 
 body {
   margin: 0;

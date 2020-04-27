@@ -208,65 +208,71 @@
   padding: 30% 0 5%;
 
   @include breakpoint(lg) {
-    // padding: 10% 5% 5%;
     padding: 5%;
+    max-height: 80vh;
   }
 
-  p {
-    text-align: center;
-    @include font-family($font-jp, 300);
-    width: 80%;
+  &__wrapper {
+   position: relative;
 
-    @include breakpoint(xxs){
-      font-size: 0.9rem;
-    }
-
-    @include breakpoint (md) {
-      @include flex-column;
-    }
-
-    a {
-      @include font-family($font-en, 500);
-    }
-  }
-  #typeform {
-    width: 90%; 
-    height: 350px;
-    @include breakpoint(xxs){
-      height: 200px;
-    }
-    @include breakpoint(lg){
-      padding: 1rem;
-      width: 50%;
-    }
-  }
-
-  .to-top {
-    display: none;
-    @include breakpoint(md){
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: $white;
-      border-radius: 50%;
-      width: 5rem;
-      height: 5rem;
-      align-self: flex-end;
-      margin-right: 2rem;
-      box-shadow: 0px 5px 15px 0px $black10;
-
+    p {
+      text-align: center;
+      @include font-family($font-jp, 300);
+      // width: 80%;
+  
+      @include breakpoint(xxs){
+        font-size: 0.9rem;
+      }
+  
+      @include breakpoint (md) {
+        @include flex-column;
+      }
+  
       a {
-        color: $primary-color;
-        font-size: 2rem;
-        display: inline-flex;
-        height: 100%;
-        width: 100%;
+        @include font-family($font-en, 500);
+      }
+    }
+    #typeform {
+      height: 350px;
+      @include breakpoint(xxs){
+        height: 200px;
+      }
+      @include breakpoint(lg){
+        // padding: 1rem;
+        // width: 50%;
+      }
+    }
+  
+    .to-top {
+      display: none;
+      @include breakpoint(md){
+        display: flex;
         justify-content: center;
         align-items: center;
-      }
-
-      &:hover {
-        cursor: pointer;
+        background: $white;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        // align-self: flex-end;
+        // margin-right: 2rem;
+        box-shadow: 0px 5px 15px 0px $black10;
+        position: absolute;
+        bottom: 0;
+        right: -200px;
+  
+        a {
+          color: $primary-color;
+          font-size: 2rem;
+          display: inline-flex;
+          height: 100%;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
