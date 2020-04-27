@@ -72,7 +72,7 @@ class NavBar extends Component {
     return (
       <div className="navbar">
         {this.state.open ? this.displayMobileMenu() : null}
-        {window.innerWidth > 768
+        {window.innerWidth > 767
           ? this.displayNavBar()
           : this.displayHamburgerMenu()}
       </div>

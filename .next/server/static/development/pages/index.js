@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -973,7 +973,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 73,
         columnNumber: 7
       }
-    }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_3___default.a.innerWidth > 768 ? this.displayNavBar() : this.displayHamburgerMenu());
+    }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_3___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
   }
 
 }
@@ -1283,7 +1283,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

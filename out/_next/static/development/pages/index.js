@@ -994,7 +994,7 @@ var NavBar = /*#__PURE__*/function (_Component) {
           lineNumber: 73,
           columnNumber: 7
         }
-      }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_10___default.a.innerWidth > 768 ? this.displayNavBar() : this.displayHamburgerMenu());
+      }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_10___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
     }
   }]);
 
@@ -13843,7 +13843,7 @@ var Page = function Page() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2FRutakeh%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -13866,5 +13866,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

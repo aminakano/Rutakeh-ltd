@@ -45,8 +45,11 @@ header {
     }
 
     @include breakpoint(md){
-      padding: 0 3rem;
       font-size: $h2;
+    }
+
+    @include breakpoint(lg) {
+      padding: 0 3rem;
     }
   }
 
@@ -70,6 +73,7 @@ header {
 
     ul.nav {
       height: 100%;
+      
       @include breakpoint(md) {
         display: flex;
         align-items: center;
