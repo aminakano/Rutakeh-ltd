@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -581,20 +581,28 @@ const HeadTag = () => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     lineNumber: 13,
     columnNumber: 5
   }
-}), __jsx("script", {
-  type: "text/javascript",
-  src: "//webfonts.xserver.jp/js/xserver.js",
+}), __jsx("meta", {
+  charset: "utf-8",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14,
     columnNumber: 5
   }
+}), __jsx("script", {
+  type: "text/javascript",
+  src: "//webfonts.xserver.jp/js/xserver.js",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 5
+  }
 }), __jsx("title", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 19,
     columnNumber: 5
   }
 }, "Rutakeh | \u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
@@ -1283,7 +1291,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

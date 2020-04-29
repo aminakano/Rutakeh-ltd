@@ -382,11 +382,5 @@ button {
   font-weight: normal;
   font-style: normal; }
 
-@font-face {
-  font-family: '07LogoTypeGothic7';
-  src: url([object Module]) format("woff2"), url([object Module]) format("woff"), url([object Module]) format("truetype"), url([object Module]) format("opentype"), url([object Module]#07LogoTypeGothic7) format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
 
 /*# sourceMappingURL=styles.chunk.css.map*/
