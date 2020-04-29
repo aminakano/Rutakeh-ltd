@@ -10,7 +10,7 @@ const HeadTag = () => (
       name="description"
       content="IT業界向け各種トレーニング、新入社員教育、e-learning、海外留学、語学研修など、ご相談ください">
     </meta>
-    <meta name="author" content="Rutakeh Limited"></meta>
+    <meta name="author" content="Rutakeh Limited" />
     <meta charset="utf-8" />
     <script
       type="text/javascript"
