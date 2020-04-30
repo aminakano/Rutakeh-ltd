@@ -540,20 +540,28 @@ var HeadTag = function HeadTag() {
       lineNumber: 13,
       columnNumber: 5
     }
-  }), __jsx("script", {
-    type: "text/javascript",
-    src: "//webfonts.xserver.jp/js/xserver.js",
+  }), __jsx("meta", {
+    charset: "utf-8",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 5
     }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "//webfonts.xserver.jp/js/xserver.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 5
+    }
   }), __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 5
     }
   }, "Rutakeh | \u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
@@ -13843,7 +13851,7 @@ var Page = function Page() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2FRutakeh%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -13866,5 +13874,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
