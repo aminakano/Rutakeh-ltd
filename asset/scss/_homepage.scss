@@ -9,7 +9,7 @@
   background-position: center;
 
   .copy-container {
-    @include breakpoint(lg){
+    @include breakpoint(lg) {
       margin: 0 5rem;
       width: 80%;
     }
@@ -28,7 +28,7 @@
         font-size: $h1;
       }
 
-      @include breakpoint(lg){
+      @include breakpoint(lg) {
         @include flex-column;
         width: 70%;
         text-align: initial;
@@ -62,7 +62,7 @@
   }
   .button {  
 
-    @include breakpoint(lg){
+    @include breakpoint(lg) {
       align-self: flex-end;
       margin-right: 10rem;
       margin-top: 2rem;
@@ -76,7 +76,7 @@
   background: $primary-color;
   padding: 20% 0 10%;
 
-  @include breakpoint(lg){
+  @include breakpoint(lg) {
     padding: 5%;
     height: 90vh;
     justify-content: center;
@@ -106,7 +106,7 @@
       width: 90%;
       margin-bottom: 2rem;
 
-      @include breakpoint(lg){
+      @include breakpoint(lg) {
         flex-direction: row;
         align-items: center;
         width: 35%;
@@ -224,7 +224,7 @@
       @include font-family($font-jp, 300);
       width: 90%;
   
-      @include breakpoint(xxs){
+      @include breakpoint(xxs) {
         font-size: 0.9rem;
       }
   
@@ -253,7 +253,7 @@
     .to-top {
       display: none;
 
-      @include breakpoint(md){
+      @include breakpoint(md) {
         display: flex;
         justify-content: center;
         align-items: center;
