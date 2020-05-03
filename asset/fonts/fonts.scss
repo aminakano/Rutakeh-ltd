@@ -1,17 +1,16 @@
 @font-face {
-    font-family: 'logotypegothicregular';
-    src: url('ltgsubset-webfont.woff2') format('woff2'),
-         url('ltgsubset-webfont.woff') format('woff');
+    font-family: 'LTG';
+    src: url('LTGsubset.woff') format('woff'),
+      url('LTGsubset.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
 }
-// @font-face {
-//   font-family: '07LogoTypeGothic7';
-//   src: url('./07LogoTypeGothic7.woff2') format('woff2'),
-//       url('./07LogoTypeGothic7.woff') format('woff'), 
-//       url('./07LogoTypeGothic7.ttf') format('truetype'), 
-//       url('./07LogoTypeGothic7.svg#07LogoTypeGothic7') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+
+@font-face {
+  font-family: '07LogoTypeGothic7';
+  src: url('./07LogoTypeGothic7.woff2') format('woff2'),
+      url('./07LogoTypeGothic7.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
