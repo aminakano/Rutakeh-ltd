@@ -1,16 +1,15 @@
 @font-face {
-    font-family: 'LTG';
-    src: url('LTGsubset.woff') format('woff'),
-      url('LTGsubset.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
   font-family: '07LogoTypeGothic7';
   src: url('./07LogoTypeGothic7.woff2') format('woff2'),
       url('./07LogoTypeGothic7.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+	font-family: '07logotypegothic7regular';
+	src: url('./_-webfont.woff2') format('woff2'),
+				url('./_-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
