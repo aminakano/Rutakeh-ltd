@@ -5,6 +5,8 @@ Corporate website of a Japanese company that provides IT trainings.
 
 * Next.js
 
+* Sass (Scss)
+
 
 ### Installation and setup
 
@@ -28,10 +30,16 @@ http://localhost:3000
 ```sh
 $ npm run export
 ``` 
+> Build for **development**
+
+```sh
+$ npm run export:prod
+``` 
+> Build for **production**
 
 ### Reference for setup
 
-* Configuration for sass in Next.js <https://dev.to/harveyjones282/the-simplest-way-to-configure-next-js-with-sass-3en)>
+* Configuration for sass in Next.js <https://dev.to/harveyjones282/the-simplest-way-to-configure-next-js-with-sass-3en>
 
 ### Reference for useful libraries
 

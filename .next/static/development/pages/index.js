@@ -339,7 +339,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 23,
       columnNumber: 9
     }
   }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -347,7 +347,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 24,
       columnNumber: 11
     }
   }, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeIcon"], {
@@ -355,7 +355,7 @@ var Contact = function Contact() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 25,
       columnNumber: 13
     }
   })))));
@@ -714,7 +714,6 @@ var _this = undefined,
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-// import "../asset/fonts/fonts.scss";
 
 
 
@@ -725,28 +724,28 @@ var withLayout = function withLayout(Page) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 8,
         columnNumber: 7
       }
     }), __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10,
+        lineNumber: 9,
         columnNumber: 7
       }
     }), __jsx(Page, {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
+        lineNumber: 10,
         columnNumber: 7
       }
     }), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 7
       }
     }));
@@ -13849,7 +13848,7 @@ var Page = function Page() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Faminakano%2Fworkspace%2FRutakeh%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -13872,5 +13871,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

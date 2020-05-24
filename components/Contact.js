@@ -20,7 +20,6 @@ const Contact = () => {
           </span>
         </p>
         <Form />
-
         <div className="to-top">
           <AnchorLink href="#home">
             <FontAwesomeIcon icon={faArrowUp} />

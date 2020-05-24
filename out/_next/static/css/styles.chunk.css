@@ -120,7 +120,7 @@ header {
         margin-top: 0;
         align-items: flex-start; } }
   .top-copy .copy-container p {
-    font-family: "LTG", "07LogoTypeGothic7", Maru Folk Medium, "\4E38\30D5\30A9\30FC\30AF   M", "M PLUS Rounded 1c", sans-serif;
+    font-family: "07logotypegothic7regular", "07LogoTypeGothic7", Maru Folk Medium, "\4E38\30D5\30A9\30FC\30AF   M", "M PLUS Rounded 1c", sans-serif;
     font-weight: 300;
     font-size: 1rem;
     text-align: center;
@@ -353,7 +353,7 @@ h4 {
   text-align: center;
   font-size: 1.25rem;
   margin-bottom: 1rem;
-  font-family: "LTG", "07LogoTypeGothic7", Maru Folk Medium, "\4E38\30D5\30A9\30FC\30AF   M", "M PLUS Rounded 1c", sans-serif;
+  font-family: "07logotypegothic7regular", "07LogoTypeGothic7", Maru Folk Medium, "\4E38\30D5\30A9\30FC\30AF   M", "M PLUS Rounded 1c", sans-serif;
   font-weight: 300; }
   @media (min-width: 768px) {
     h4 {
@@ -375,18 +375,6 @@ button {
 
 #__next {
   position: relative; }
-
-@font-face {
-  font-family: 'LTG';
-  src: url([object Module]) format("woff"), url([object Module]) format("woff2");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: '07LogoTypeGothic7';
-  src: url([object Module]) format("woff2"), url([object Module]) format("woff");
-  font-weight: normal;
-  font-style: normal; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
