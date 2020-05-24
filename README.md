@@ -30,16 +30,12 @@ http://localhost:3000
 ```sh
 $ npm run export
 ``` 
-> Build for **development**
-
-```sh
-$ npm run export:prod
-``` 
-> Build for **production**
 
 ### Reference for setup
 
 * Configuration for sass in Next.js <https://dev.to/harveyjones282/the-simplest-way-to-configure-next-js-with-sass-3en>
+
+* Setting environment variables (in Japanese) <https://nju33.com/nextjs/%E7%9B%B8%E5%AF%BE%E3%83%91%E3%82%B9%E3%81%AA%20URL%20%E3%81%AB%E9%9D%99%E7%9A%84%E3%83%93%E3%83%AB%E3%83%89%E3%81%97%E3%81%9F%E6%88%90%E6%9E%9C%E7%89%A9%E3%82%92%E7%BD%AE%E3%81%8F>
 
 ### Reference for useful libraries
 

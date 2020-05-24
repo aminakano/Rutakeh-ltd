@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -768,11 +768,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var global__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! global */ "global");
 /* harmony import */ var global__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/NavBar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -803,7 +806,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
+          lineNumber: 20,
           columnNumber: 7
         }
       });
@@ -815,67 +818,83 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 36,
           columnNumber: 7
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 52,
           columnNumber: 9
         }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#home",
+      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "home",
+        activeClass: "active",
+        spy: true,
+        smooth: true,
+        duration: 500,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 53,
           columnNumber: 11
         }
       }, "Home")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 62,
           columnNumber: 9
         }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#services",
+      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "services",
+        activeClass: "active",
+        spy: true,
+        smooth: true,
+        duration: 500,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 63,
           columnNumber: 11
         }
       }, "Services")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 73,
           columnNumber: 9
         }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#about",
+      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "about",
+        activeClass: "active",
+        spy: true,
+        smooth: true,
+        duration: 500,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 74,
           columnNumber: 11
         }
       }, "About")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 84,
           columnNumber: 9
         }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#contact",
+      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+        to: "contact",
+        activeClass: "active",
+        spy: true,
+        smooth: true,
+        duration: 500,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 85,
           columnNumber: 11
         }
       }, "Contact")));
@@ -887,14 +906,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54,
+          lineNumber: 100,
           columnNumber: 7
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55,
+          lineNumber: 101,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -902,14 +921,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 102,
           columnNumber: 11
         }
       }, "Home")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 104,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -917,14 +936,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 105,
           columnNumber: 11
         }
       }, "Services")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 107,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -932,14 +951,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 108,
           columnNumber: 11
         }
       }, "About")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 110,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -947,7 +966,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 111,
           columnNumber: 11
         }
       }, "Contact")));
@@ -964,7 +983,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73,
+        lineNumber: 119,
         columnNumber: 7
       }
     }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_3___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
@@ -1277,7 +1296,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1385,6 +1404,17 @@ module.exports = require("react-hamburger-menu");
 /***/ (function(module, exports) {
 
 module.exports = require("react-reveal/Fade");
+
+/***/ }),
+
+/***/ "react-scroll":
+/*!*******************************!*\
+  !*** external "react-scroll" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-scroll");
 
 /***/ })
 
