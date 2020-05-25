@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -570,28 +570,20 @@ const HeadTag = () => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     lineNumber: 12,
     columnNumber: 5
   }
-}), __jsx("meta", {
-  charset: "utf-8",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13,
-    columnNumber: 5
-  }
 }), __jsx("script", {
   type: "text/javascript",
   src: "//webfonts.xserver.jp/js/xserver.js",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14,
+    lineNumber: 13,
     columnNumber: 5
   }
 }), __jsx("title", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 17,
     columnNumber: 5
   }
 }, "Rutakeh | \u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
@@ -825,7 +817,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52,
+          lineNumber: 37,
           columnNumber: 9
         }
       }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
@@ -837,14 +829,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 38,
           columnNumber: 11
         }
       }, "Home")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 47,
           columnNumber: 9
         }
       }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
@@ -856,14 +848,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 48,
           columnNumber: 11
         }
       }, "Services")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73,
+          lineNumber: 57,
           columnNumber: 9
         }
       }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
@@ -875,14 +867,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 58,
           columnNumber: 11
         }
       }, "About")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 67,
           columnNumber: 9
         }
       }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
@@ -894,7 +886,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85,
+          lineNumber: 68,
           columnNumber: 11
         }
       }, "Contact")));
@@ -906,14 +898,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 83,
           columnNumber: 7
         }
       }, __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 84,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -921,14 +913,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102,
+          lineNumber: 85,
           columnNumber: 11
         }
       }, "Home")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 87,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -936,14 +928,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105,
+          lineNumber: 88,
           columnNumber: 11
         }
       }, "Services")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107,
+          lineNumber: 90,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -951,14 +943,14 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 91,
           columnNumber: 11
         }
       }, "About")), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110,
+          lineNumber: 93,
           columnNumber: 9
         }
       }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -966,7 +958,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 94,
           columnNumber: 11
         }
       }, "Contact")));
@@ -983,7 +975,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 119,
+        lineNumber: 102,
         columnNumber: 7
       }
     }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_3___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
@@ -1296,7 +1288,7 @@ const Page = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, 
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

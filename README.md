@@ -46,3 +46,5 @@ $ npm run export
 * `react-reveal` Smooth animation <https://www.npmjs.com/package/react-reveal>
 
 * `react-hamburger-menu` Hamburger navigation component <https://www.npmjs.com/package/react-hamburger-menu>
+
+* `react-scroll` Giving an active class to header navigation items according to scroll events <https://www.npmjs.com/package/react-scroll>

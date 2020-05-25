@@ -212,6 +212,7 @@
 
   @include breakpoint(lg) {
     padding: 5%;
+    height: 80vh;
     max-height: 100vh;
   }
 

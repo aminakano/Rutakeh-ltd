@@ -267,6 +267,7 @@ header {
   @media (min-width: 1024px) {
     .contact {
       padding: 5%;
+      height: 80vh;
       max-height: 100vh; } }
   .contact__wrapper {
     position: relative;

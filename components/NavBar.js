@@ -2,7 +2,7 @@ import { Component } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import HamburgerMenu from "react-hamburger-menu";
 import window from "global";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 class NavBar extends Component {
   constructor() {
@@ -34,21 +34,6 @@ class NavBar extends Component {
   displayNavBar = () => {
     return (
       <ul className="nav">
-        {/* <li>
-          <AnchorLink href="#home">Home</AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#services">
-            Services
-          </AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#about">About</AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#contact">Contact</AnchorLink>
-        </li> */}
-
         <li>
           <Link
             to="home"
@@ -65,8 +50,7 @@ class NavBar extends Component {
             activeClass="active"
             spy={true}
             smooth={true}
-            duration={500}
-          >
+            duration={500}>
             Services
           </Link>
         </li>
@@ -76,8 +60,7 @@ class NavBar extends Component {
             activeClass="active"
             spy={true}
             smooth={true}
-            duration={500}
-          >
+            duration={500}>
             About
           </Link>
         </li>
