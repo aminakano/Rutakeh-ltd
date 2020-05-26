@@ -137,7 +137,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
+ //todo: restructure unordered lists
 
 class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
@@ -150,21 +150,21 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 14,
         columnNumber: 7
       }
     }, __jsx("h3", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 15,
         columnNumber: 9
       }
     }, "About us"), __jsx("div", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 16,
         columnNumber: 9
       }
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -172,21 +172,21 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 17,
         columnNumber: 11
       }
     }, __jsx("h4", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 18,
         columnNumber: 13
       }
     }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
+        lineNumber: 19,
         columnNumber: 13
       }
     }, infos.map((info, i) => __jsx("li", {
@@ -194,35 +194,35 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 17
       }
     }, __jsx("h5", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 19
       }
     }, info.title), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 23,
         columnNumber: 19
       }
     }, info.item)))), __jsx("h4", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 27,
         columnNumber: 13
       }
     }, "\u6CBF\u9769"), __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 28,
         columnNumber: 13
       }
     }, histories.map((history, i) => __jsx("li", {
@@ -230,21 +230,21 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 17
       }
     }, __jsx("h5", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 19
       }
     }, history.title), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30,
+        lineNumber: 32,
         columnNumber: 19
       }
     }, history.item)))))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -253,7 +253,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 38,
         columnNumber: 9
       }
     }));
@@ -899,9 +899,9 @@ class TopCopy extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavBar */ "./components/header/NavBar.js");
+/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavBar */ "./components/header/NavBar.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/header/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -937,8 +937,12 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 25,
         columnNumber: 7
       }
-    }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#home",
+    }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "home",
+      activeClass: "active",
+      spy: true,
+      smooth: true,
+      duration: 500,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -949,28 +953,28 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 32,
         columnNumber: 11
       }
     }, __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 33,
         columnNumber: 13
       }
     }, "Rutakeh"), __jsx("span", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 34,
         columnNumber: 13
       }
-    }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"))), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"))), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 37,
         columnNumber: 9
       }
     }));
@@ -979,6 +983,116 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/header/MenuItems.js":
+/*!****************************************!*\
+  !*** ./components/header/MenuItems.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "react-scroll");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/header/MenuItems.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const MenuItems = ({
+  menuType
+}) => __jsx("ul", {
+  className: menuType,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4,
+    columnNumber: 3
+  }
+}, __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 5
+  }
+}, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  to: "home",
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  duration: 500,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 7
+  }
+}, "Home")), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 5
+  }
+}, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  to: "services",
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  duration: 500,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16,
+    columnNumber: 7
+  }
+}, "Services")), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25,
+    columnNumber: 5
+  }
+}, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  to: "about",
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  duration: 500,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26,
+    columnNumber: 7
+  }
+}, "About")), __jsx("li", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 5
+  }
+}, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  to: "contact",
+  activeClass: "active",
+  spy: true,
+  smooth: true,
+  duration: 500,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 7
+  }
+}, "Contact")));
+
+/* harmony default export */ __webpack_exports__["default"] = (MenuItems);
 
 /***/ }),
 
@@ -993,20 +1107,16 @@ class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "react-anchor-link-smooth-scroll");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-hamburger-menu */ "react-hamburger-menu");
-/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! global */ "global");
-/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-scroll */ "react-scroll");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-hamburger-menu */ "react-hamburger-menu");
+/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! global */ "global");
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _MenuItems__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MenuItems */ "./components/header/MenuItems.js");
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/header/NavBar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 
 
 
@@ -1024,7 +1134,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     });
 
     _defineProperty(this, "displayHamburgerMenu", () => {
-      return __jsx(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      return __jsx(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_1___default.a, {
         isOpen: this.state.open,
         menuClicked: this.handleClick.bind(this),
         width: 25,
@@ -1037,171 +1147,31 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 19,
           columnNumber: 7
         }
       });
     });
 
-    _defineProperty(this, "displayNavBar", () => {
-      return __jsx("ul", {
-        className: "nav",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 7
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-        to: "home",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 11
-        }
-      }, "Home")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-        to: "services",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 11
-        }
-      }, "Services")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-        to: "about",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58,
-          columnNumber: 11
-        }
-      }, "About")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-        to: "contact",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68,
-          columnNumber: 11
-        }
-      }, "Contact")));
-    });
+    _defineProperty(this, "displayNavBar", () => __jsx(_MenuItems__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      menuType: "nav",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 25
+      }
+    }));
 
-    _defineProperty(this, "displayMobileMenu", () => {
-      return __jsx("ul", {
-        className: "hamburgerDropDown",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83,
-          columnNumber: 7
-        }
-      }, __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#home",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85,
-          columnNumber: 11
-        }
-      }, "Home")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#services",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88,
-          columnNumber: 11
-        }
-      }, "Services")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#about",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91,
-          columnNumber: 11
-        }
-      }, "About")), __jsx("li", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: "#contact",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94,
-          columnNumber: 11
-        }
-      }, "Contact")));
-    });
+    _defineProperty(this, "displayMobileMenu", () => __jsx(_MenuItems__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      menuType: "hamburgerDropDown",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 29
+      }
+    }));
 
     this.state = {
       open: false
@@ -1214,10 +1184,10 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 102,
+        lineNumber: 39,
         columnNumber: 7
       }
-    }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_3___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
+    }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_2___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
   }
 
 }

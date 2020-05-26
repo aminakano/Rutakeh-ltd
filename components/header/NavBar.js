@@ -1,14 +1,13 @@
 import { Component } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import HamburgerMenu from "react-hamburger-menu";
 import window from "global";
-import { Link } from "react-scroll";
+import MenuItems from "./MenuItems";
 
 class NavBar extends Component {
   constructor() {
     super();
     this.state = {
-      open: false
+      open: false,
     };
   }
   handleClick = () => {
@@ -31,71 +30,9 @@ class NavBar extends Component {
     );
   };
 
-  displayNavBar = () => {
-    return (
-      <ul className="nav">
-        <li>
-          <Link
-            to="home"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="services"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}>
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="about"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="contact"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}>
-            Contact
-          </Link>
-        </li>
-      </ul>
-    );
-  };
+  displayNavBar = () => <MenuItems menuType="nav" />;
 
-  displayMobileMenu = () => {
-    return (
-      <ul className="hamburgerDropDown">
-        <li>
-          <AnchorLink href="#home">Home</AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#services">Services</AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#about">About</AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#contact">Contact</AnchorLink>
-        </li>
-      </ul>
-    );
-  };
+  displayMobileMenu = () => <MenuItems menuType="hamburgerDropDown" />;
 
   render() {
     return (

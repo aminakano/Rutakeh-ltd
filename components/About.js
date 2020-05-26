@@ -3,8 +3,10 @@ import Fade from "react-reveal/Fade";
 import { Component } from "react";
 import Button from "./Button";
 
+//todo: restructure unordered lists
 class About extends Component {
-  render(){
+
+  render() {
     const infos = data.info.company;
     const histories = data.info.history;
     const name = "With us?";

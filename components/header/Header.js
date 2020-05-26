@@ -1,13 +1,13 @@
 import { Component } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import NavBar from "./NavBar";
+import { Link } from "react-scroll";
 
 class Header extends Component {
   componentDidMount() {
     const header = document.getElementById("header");
     let scrollPos = 0;
 
-    const headerEffect = (position) => {
+    const headerEffect = position => {
       if (position > 32) {
         header.classList.add("header-bg");
       } else {
@@ -23,12 +23,17 @@ class Header extends Component {
   render() {
     return (
       <header id="header">
-        <AnchorLink href="#home">
+        <Link
+          to="home"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          duration={500}>
           <h2>
             <span>Rutakeh</span>
             <span>龍武株式会社</span>
           </h2>
-        </AnchorLink>
+        </Link>
         <NavBar />
       </header>
     );

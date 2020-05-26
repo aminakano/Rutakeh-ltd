@@ -48,7 +48,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-
+ //todo: restructure unordered lists
 
 var About = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(About, _Component);
@@ -75,21 +75,21 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 14,
           columnNumber: 7
         }
       }, __jsx("h3", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 15,
           columnNumber: 9
         }
       }, "About us"), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 16,
           columnNumber: 9
         }
       }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -97,21 +97,21 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 17,
           columnNumber: 11
         }
       }, __jsx("h4", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 18,
           columnNumber: 13
         }
       }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17,
+          lineNumber: 19,
           columnNumber: 13
         }
       }, infos.map(function (info, i) {
@@ -120,21 +120,21 @@ var About = /*#__PURE__*/function (_Component) {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 17
           }
         }, __jsx("h5", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 20,
+            lineNumber: 22,
             columnNumber: 19
           }
         }, info.title), __jsx("p", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 21,
+            lineNumber: 23,
             columnNumber: 19
           }
         }, info.item));
@@ -142,14 +142,14 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 27,
           columnNumber: 13
         }
       }, "\u6CBF\u9769"), __jsx("ul", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 28,
           columnNumber: 13
         }
       }, histories.map(function (history, i) {
@@ -158,21 +158,21 @@ var About = /*#__PURE__*/function (_Component) {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 28,
+            lineNumber: 30,
             columnNumber: 17
           }
         }, __jsx("h5", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 29,
+            lineNumber: 31,
             columnNumber: 19
           }
         }, history.title), __jsx("p", {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 30,
+            lineNumber: 32,
             columnNumber: 19
           }
         }, history.item));
@@ -182,7 +182,7 @@ var About = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 38,
           columnNumber: 9
         }
       }));
@@ -910,9 +910,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./NavBar */ "./components/header/NavBar.js");
+/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NavBar */ "./components/header/NavBar.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -971,8 +971,12 @@ var Header = /*#__PURE__*/function (_Component) {
           lineNumber: 25,
           columnNumber: 7
         }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#home",
+      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        to: "home",
+        activeClass: "active",
+        spy: true,
+        smooth: true,
+        duration: 500,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -983,28 +987,28 @@ var Header = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 32,
           columnNumber: 11
         }
       }, __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 33,
           columnNumber: 13
         }
       }, "Rutakeh"), __jsx("span", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 34,
           columnNumber: 13
         }
-      }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"))), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }, "\u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"))), __jsx(_NavBar__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 37,
           columnNumber: 9
         }
       }));
@@ -1015,6 +1019,119 @@ var Header = /*#__PURE__*/function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/header/MenuItems.js":
+/*!****************************************!*\
+  !*** ./components/header/MenuItems.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/header/MenuItems.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+var MenuItems = function MenuItems(_ref) {
+  var menuType = _ref.menuType;
+  return __jsx("ul", {
+    className: menuType,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 3
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 5
+    }
+  }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "home",
+    activeClass: "active",
+    spy: true,
+    smooth: true,
+    duration: 500,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }
+  }, "Home")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 5
+    }
+  }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "services",
+    activeClass: "active",
+    spy: true,
+    smooth: true,
+    duration: 500,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  }, "Services")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "about",
+    activeClass: "active",
+    spy: true,
+    smooth: true,
+    duration: 500,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 7
+    }
+  }, "About")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 5
+    }
+  }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "contact",
+    activeClass: "active",
+    spy: true,
+    smooth: true,
+    duration: 500,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 7
+    }
+  }, "Contact")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MenuItems);
 
 /***/ }),
 
@@ -1036,14 +1153,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js");
-/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-hamburger-menu */ "./node_modules/react-hamburger-menu/dist/HamburgerMenu.js");
-/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! global */ "./node_modules/global/window.js");
-/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-hamburger-menu */ "./node_modules/react-hamburger-menu/dist/HamburgerMenu.js");
+/* harmony import */ var react_hamburger_menu__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! global */ "./node_modules/global/window.js");
+/* harmony import */ var global__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(global__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _MenuItems__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./MenuItems */ "./components/header/MenuItems.js");
 
 
 
@@ -1058,7 +1172,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 function _createSuper(Derived) { return function () { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
 
 
 
@@ -1084,7 +1197,7 @@ var NavBar = /*#__PURE__*/function (_Component) {
     });
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "displayHamburgerMenu", function () {
-      return __jsx(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_9___default.a, {
+      return __jsx(react_hamburger_menu__WEBPACK_IMPORTED_MODULE_8___default.a, {
         isOpen: _this.state.open,
         menuClicked: _this.handleClick.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this)),
         width: 25,
@@ -1097,170 +1210,34 @@ var NavBar = /*#__PURE__*/function (_Component) {
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 19,
           columnNumber: 7
         }
       });
     });
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "displayNavBar", function () {
-      return __jsx("ul", {
-        className: "nav",
+      return __jsx(_MenuItems__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        menuType: "nav",
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 7
+          lineNumber: 33,
+          columnNumber: 25
         }
-      }, __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        to: "home",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 11
-        }
-      }, "Home")), __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        to: "services",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48,
-          columnNumber: 11
-        }
-      }, "Services")), __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        to: "about",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58,
-          columnNumber: 11
-        }
-      }, "About")), __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67,
-          columnNumber: 9
-        }
-      }, __jsx(react_scroll__WEBPACK_IMPORTED_MODULE_11__["Link"], {
-        to: "contact",
-        activeClass: "active",
-        spy: true,
-        smooth: true,
-        duration: 500,
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68,
-          columnNumber: 11
-        }
-      }, "Contact")));
+      });
     });
 
     Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "displayMobileMenu", function () {
-      return __jsx("ul", {
-        className: "hamburgerDropDown",
+      return __jsx(_MenuItems__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        menuType: "hamburgerDropDown",
         __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
-          columnNumber: 7
+          lineNumber: 35,
+          columnNumber: 29
         }
-      }, __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#home",
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85,
-          columnNumber: 11
-        }
-      }, "Home")), __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#services",
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88,
-          columnNumber: 11
-        }
-      }, "Services")), __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#about",
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91,
-          columnNumber: 11
-        }
-      }, "About")), __jsx("li", {
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93,
-          columnNumber: 9
-        }
-      }, __jsx(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#contact",
-        __self: Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94,
-          columnNumber: 11
-        }
-      }, "Contact")));
+      });
     });
 
     _this.state = {
@@ -1277,10 +1254,10 @@ var NavBar = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102,
+          lineNumber: 39,
           columnNumber: 7
         }
-      }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_10___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
+      }, this.state.open ? this.displayMobileMenu() : null, global__WEBPACK_IMPORTED_MODULE_9___default.a.innerWidth > 767 ? this.displayNavBar() : this.displayHamburgerMenu());
     }
   }]);
 
