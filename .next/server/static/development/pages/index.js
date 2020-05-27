@@ -131,13 +131,15 @@ var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
+/* harmony import */ var _ListMapping__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ListMapping */ "./components/ListMapping.js");
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/About.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- //todo: restructure unordered lists
+
+
 
 class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
@@ -175,85 +177,31 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 17,
         columnNumber: 11
       }
-    }, __jsx("h4", {
+    }, __jsx(_ListMapping__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      title: "\u4F1A\u793E\u6982\u8981",
+      array: infos,
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18,
         columnNumber: 13
       }
-    }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
+    }), __jsx(_ListMapping__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      title: "\u6CBF\u9769",
+      array: histories,
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19,
         columnNumber: 13
       }
-    }, infos.map((info, i) => __jsx("li", {
-      key: i,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 17
-      }
-    }, __jsx("h5", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 19
-      }
-    }, info.title), __jsx("p", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 19
-      }
-    }, info.item)))), __jsx("h4", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27,
-        columnNumber: 13
-      }
-    }, "\u6CBF\u9769"), __jsx("ul", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28,
-        columnNumber: 13
-      }
-    }, histories.map((history, i) => __jsx("li", {
-      key: i,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 30,
-        columnNumber: 17
-      }
-    }, __jsx("h5", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31,
-        columnNumber: 19
-      }
-    }, history.title), __jsx("p", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 19
-      }
-    }, history.item)))))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
       name: name,
       url: "#contact",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 22,
         columnNumber: 9
       }
     }));
@@ -589,6 +537,66 @@ const HeadTag = () => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
 }, "Rutakeh | \u9F8D\u6B66\u682A\u5F0F\u4F1A\u793E"));
 
 /* harmony default export */ __webpack_exports__["default"] = (HeadTag);
+
+/***/ }),
+
+/***/ "./components/ListMapping.js":
+/*!***********************************!*\
+  !*** ./components/ListMapping.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/ListMapping.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const ListMapping = ({
+  title,
+  array
+}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h4", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3,
+    columnNumber: 5
+  }
+}, title), __jsx("ul", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4,
+    columnNumber: 5
+  }
+}, array.map((info, i) => __jsx("li", {
+  key: i,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 9
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 11
+  }
+}, info.title), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 11
+  }
+}, info.item)))));
+
+/* harmony default export */ __webpack_exports__["default"] = (ListMapping);
 
 /***/ }),
 

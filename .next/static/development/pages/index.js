@@ -32,6 +32,7 @@ var _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "./node_modules/react-reveal/Fade.js");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
+/* harmony import */ var _ListMapping__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ListMapping */ "./components/ListMapping.js");
 
 
 
@@ -48,7 +49,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
- //todo: restructure unordered lists
+
+
 
 var About = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(About, _Component);
@@ -64,8 +66,6 @@ var About = /*#__PURE__*/function (_Component) {
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(About, [{
     key: "render",
     value: function render() {
-      var _this = this;
-
       var infos = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__.info.company;
       var histories = _asset_json_data_json__WEBPACK_IMPORTED_MODULE_6__.info.history;
       var name = "With us?";
@@ -100,89 +100,31 @@ var About = /*#__PURE__*/function (_Component) {
           lineNumber: 17,
           columnNumber: 11
         }
-      }, __jsx("h4", {
+      }, __jsx(_ListMapping__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        title: "\u4F1A\u793E\u6982\u8981",
+        array: infos,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18,
           columnNumber: 13
         }
-      }, "\u4F1A\u793E\u6982\u8981"), __jsx("ul", {
+      }), __jsx(_ListMapping__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        title: "\u6CBF\u9769",
+        array: histories,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19,
           columnNumber: 13
         }
-      }, infos.map(function (info, i) {
-        return __jsx("li", {
-          key: i,
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 21,
-            columnNumber: 17
-          }
-        }, __jsx("h5", {
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 22,
-            columnNumber: 19
-          }
-        }, info.title), __jsx("p", {
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 23,
-            columnNumber: 19
-          }
-        }, info.item));
-      })), __jsx("h4", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 13
-        }
-      }, "\u6CBF\u9769"), __jsx("ul", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28,
-          columnNumber: 13
-        }
-      }, histories.map(function (history, i) {
-        return __jsx("li", {
-          key: i,
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 30,
-            columnNumber: 17
-          }
-        }, __jsx("h5", {
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 31,
-            columnNumber: 19
-          }
-        }, history.title), __jsx("p", {
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 32,
-            columnNumber: 19
-          }
-        }, history.item));
-      })))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }))), __jsx(_Button__WEBPACK_IMPORTED_MODULE_8__["default"], {
         name: name,
         url: "#contact",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 22,
           columnNumber: 9
         }
       }));
@@ -560,6 +502,71 @@ var HeadTag = function HeadTag() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (HeadTag);
+
+/***/ }),
+
+/***/ "./components/ListMapping.js":
+/*!***********************************!*\
+  !*** ./components/ListMapping.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _this = undefined,
+    _jsxFileName = "/Users/aminakano/workspace/Rutakeh/components/ListMapping.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var ListMapping = function ListMapping(_ref) {
+  var title = _ref.title,
+      array = _ref.array;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h4", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3,
+      columnNumber: 5
+    }
+  }, title), __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 5
+    }
+  }, array.map(function (info, i) {
+    return __jsx("li", {
+      key: i,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 9
+      }
+    }, __jsx("h5", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 11
+      }
+    }, info.title), __jsx("p", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 11
+      }
+    }, info.item));
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ListMapping);
 
 /***/ }),
 
