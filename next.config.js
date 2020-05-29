@@ -7,7 +7,7 @@ module.exports = {
   exportPathMap: () => ({
     "/": { page: "/" },
   }),
-  assetPrefix: isProd ? "http://rutakeh.com/public_html/test" : "",
+  assetPrefix: isProd ? "http://rutakeh.com/public_html/" : "",
 };
 module.exports = withImages();
 module.exports = withCSS(

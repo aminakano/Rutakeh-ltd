@@ -23,7 +23,8 @@ header {
   header a {
     color: inherit; }
     header a:hover {
-      text-decoration: none; }
+      text-decoration: none;
+      cursor: pointer; }
   header.header-bg {
     color: #3e4348;
     background-color: rgba(255, 255, 255, 0.5); }
@@ -70,6 +71,8 @@ header {
           margin-right: 3rem; } }
       header .navbar ul.nav li {
         padding: 0 2rem; }
+        header .navbar ul.nav li a.active {
+          text-decoration: underline; }
     header .navbar ul.hamburgerDropDown {
       background: rgba(184, 45, 23, 0.5);
       border-radius: 50%;
@@ -264,6 +267,7 @@ header {
   @media (min-width: 1024px) {
     .contact {
       padding: 5%;
+      height: 80vh;
       max-height: 100vh; } }
   .contact__wrapper {
     position: relative;
