@@ -9,7 +9,9 @@
     "build:prod": "NODE_ENV=production next build",
     "start": "next start",
     "export": "npm run build && next export",
-    "export:prod": "npm run build:prod && next export"
+    "export:prod": "npm run build:prod && next export",
+    "next.export:prod": "NODE_ENV=production next export",
+    "next.build": "npm run build && npm run next.export:prod"
   },
   "keywords": [],
   "author": "",

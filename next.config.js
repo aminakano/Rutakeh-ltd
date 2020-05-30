@@ -1,14 +1,21 @@
 const withSass = require("@zeit/next-sass");
 const withCSS = require("@zeit/next-css");
 const withImages = require("next-images");
-process.env.NODE_ENV = "production";
+
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   exportPathMap: () => ({
-    "/": { page: "/" },
+    "/test": { page: "/index" },
   }),
-  assetPrefix: isProd ? "https://rutakeh.com/test/" : "",
+  assetPrefix: isProd ? "/test" : "",
+  publicRuntimeConfig: {
+    staticFolder: `/`,
+  },
+  webpack: (config) => {
+    config.output.publicPath = `/test${config.output.publicPath}`;
+    return config;
+  },
 };
 module.exports = withImages();
 module.exports = withCSS(
@@ -24,7 +31,7 @@ module.exports = withCSS(
           }
         }
       });
-
+      console.log(config)
       return config;
     }
   })
