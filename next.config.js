@@ -1,13 +1,14 @@
 const withSass = require("@zeit/next-sass");
 const withCSS = require("@zeit/next-css");
 const withImages = require("next-images");
-const isProd = (process.env.NODE_ENV || "production") === "production";
+process.env.NODE_ENV = "production";
+const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   exportPathMap: () => ({
     "/": { page: "/" },
   }),
-  assetPrefix: isProd ? "http://rutakeh.com/public_html/" : "",
+  assetPrefix: isProd ? "https://rutakeh.com/test/" : "",
 };
 module.exports = withImages();
 module.exports = withCSS(
