@@ -13,10 +13,6 @@ module.exports = {
   publicRuntimeConfig: {
     staticFolder: `/`,
   },
-  // webpack: (config) => {
-  //   config.output.publicPath = `/test${config.output.publicPath}`;
-  //   return config;
-  // },
 };
 module.exports = withImages();
 module.exports = withCSS(
