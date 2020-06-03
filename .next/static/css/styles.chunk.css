@@ -380,5 +380,17 @@ button {
 #__next {
   position: relative; }
 
+@font-face {
+  font-family: '07LogoTypeGothic7';
+  src: url([object Module]) format("woff2"), url([object Module]) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: '07logotypegothic7regular';
+  src: url([object Module]) format("woff2"), url([object Module]) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/

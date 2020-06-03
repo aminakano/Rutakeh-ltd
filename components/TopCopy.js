@@ -1,6 +1,5 @@
 import Button from "./Button";
 import Fade from "react-reveal/Fade";
-import window from "global";
 
 import { Component } from 'react';
 class TopCopy extends Component {
