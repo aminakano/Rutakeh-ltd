@@ -9,7 +9,7 @@ module.exports = {
   exportPathMap: () => ({
     "/": { page: "/index" },
   }),
-  assetPrefix: isProd ? "http://rutakeh.com/public_html/test" : "",
+  assetPrefix: isProd ? "http://rutakeh.com/public_html/" : "",
   publicRuntimeConfig: {
     staticFolder: `/`,
   },

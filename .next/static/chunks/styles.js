@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./asset/fonts/fonts.scss":
-/*!********************************!*\
-  !*** ./asset/fonts/fonts.scss ***!
-  \********************************/
+/***/ "./asset/fonts/fonts.css":
+/*!*******************************!*\
+  !*** ./asset/fonts/fonts.css ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1591208433878");
+            injectCss(link, link.href.split("?")[0] + "?unix=1591556499423");
           });
       }
     }
@@ -66,7 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1591207096558");
+            injectCss(link, link.href.split("?")[0] + "?unix=1591556557423");
           });
       }
     }

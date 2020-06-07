@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./asset/fonts/fonts.scss":
-/*!********************************!*\
-  !*** ./asset/fonts/fonts.scss ***!
-  \********************************/
+/***/ "./asset/fonts/fonts.css":
+/*!*******************************!*\
+  !*** ./asset/fonts/fonts.css ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -127,10 +127,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyApp; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _asset_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../asset/scss/main.scss */ "./asset/scss/main.scss");
-/* harmony import */ var _asset_scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_asset_scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _asset_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../asset/fonts/fonts.scss */ "./asset/fonts/fonts.scss");
-/* harmony import */ var _asset_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../asset/fonts/fonts.css */ "./asset/fonts/fonts.css");
+/* harmony import */ var _asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_asset_fonts_fonts_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _asset_scss_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../asset/scss/main.scss */ "./asset/scss/main.scss");
+/* harmony import */ var _asset_scss_main_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_asset_scss_main_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/aminakano/workspace/Rutakeh/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
