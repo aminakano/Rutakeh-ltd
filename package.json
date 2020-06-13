@@ -22,23 +22,33 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@typeform/embed": "^0.16.0",
     "@zeit/next-sass": "^1.0.1",
-    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
+    "fibers": "^4.0.3",
     "global": "^4.4.0",
     "next": "^9.3.4",
     "next-images": "^1.4.0",
     "node-sass": "^4.14.1",
     "postcss": "^7.0.27",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "raw-loader": "^4.0.1",
     "react": "^16.13.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.13.1",
     "react-hamburger-menu": "^1.2.1",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.7.16",
-    "sass": "^1.26.5",
-    "styled-jsx": "^3.2.5"
+    "sass": "^1.26.5"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-loader": "^3.0.0",
     "url-loader": "^4.0.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "Android >= 4"
+  ]
 }

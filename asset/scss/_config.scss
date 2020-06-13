@@ -19,6 +19,9 @@ a {
 
 @mixin flex-column {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
 }

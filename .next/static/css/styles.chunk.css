@@ -86,6 +86,9 @@ header {
       height: 250px;
       width: 250px;
       display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       flex-direction: column;
       align-items: center;
       justify-content: center; }
@@ -96,6 +99,9 @@ header {
 
 .top-copy {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
   background-image: url("/bg.jpg");
@@ -123,6 +129,9 @@ header {
     @media (min-width: 1024px) {
       .top-copy .copy-container h1 {
         display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         flex-direction: column;
         align-items: center;
         width: 70%;
@@ -140,6 +149,9 @@ header {
     @media (min-width: 768px) {
       .top-copy .copy-container p {
         display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         flex-direction: column;
         align-items: center;
         align-items: center;
@@ -159,6 +171,9 @@ header {
 
 .services {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
   background: #17a2b8;
@@ -173,18 +188,26 @@ header {
   .services .services-list {
     padding: 5% 0;
     margin: 3% 10%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     justify-content: space-evenly;
     background-color: #fff;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px; }
     @media (min-width: 1024px) {
       .services .services-list {
-        padding: 2% 0; } }
+        padding: 2% 0;
+        width: 80%; } }
     .services .services-list li {
       padding: 0.5rem;
       display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       flex-direction: column;
       align-items: center;
       width: 90%;
@@ -208,9 +231,15 @@ header {
         margin: 0 1.5rem;
         font-family: "M PLUS Rounded 1c", sans-serif;
         font-weight: 300; }
+  @supports (-ms-ime-align: auto) {
+    .services .services-list {
+      justify-content: space-around; } }
 
 .about {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -265,6 +294,9 @@ header {
 
 .contact {
   display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -279,6 +311,9 @@ header {
   .contact__wrapper {
     position: relative;
     display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
@@ -292,6 +327,9 @@ header {
       @media (min-width: 768px) {
         .contact__wrapper p {
           display: flex;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
           flex-direction: column;
           align-items: center;
           width: 100%;

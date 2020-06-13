@@ -18,16 +18,18 @@ module.exports = withImages();
 module.exports = withCSS(
   withSass({
     webpack(config, options) {
-      config.module.rules.push({
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|otf)$/,
-        use: {
-          loader: "url-loader",
-          options: {
-            limit: 100000,
-            name: "[path][name].[ext]"
-          }
+      config.module.rules.push(
+        {
+          test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|otf)$/,
+          use: {
+            loader: "url-loader",
+            options: {
+              limit: 100000,
+              name: "[path][name].[ext]",
+            },
+          },
         }
-      });
+      );
       return config;
     }
   })

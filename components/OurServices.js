@@ -3,11 +3,14 @@ import { faLaptop, faChalkboardTeacher, faGlobe, faUserFriends } from "@fortawes
 import data from "../asset/json/data.json";
 import Button from "./Button";
 import Fade from "react-reveal/Fade";
+import window from "global";
 
 const Services = () => {
   const services = data.info.service;
   const icons = [faLaptop, faChalkboardTeacher, faGlobe, faUserFriends];
   const name = "Who we are";
+  
+  
   return (
     <div className="services" id="services">
       <Fade bottom>
