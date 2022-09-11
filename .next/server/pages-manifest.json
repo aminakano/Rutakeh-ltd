@@ -1,1 +1,6 @@
-{"/_app":"static/4hG-qnVRwZg-yMl0eyAih/pages/_app.js","/_document":"static/4hG-qnVRwZg-yMl0eyAih/pages/_document.js","/_error":"static/4hG-qnVRwZg-yMl0eyAih/pages/_error.js","/index":"static/4hG-qnVRwZg-yMl0eyAih/pages/index.html","/":"static/4hG-qnVRwZg-yMl0eyAih/pages/index.html","/404":"static/4hG-qnVRwZg-yMl0eyAih/pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js"
+}
